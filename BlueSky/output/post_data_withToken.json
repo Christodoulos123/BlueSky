@@ -1,0 +1,30 @@
+{
+    "posts": [
+        {
+            "uri": "at://did:plc:ynl2frkgfgqsi4s2v4q62gp6/app.bsky.feed.post/3l5ho3m2g642t",
+            "cid": "bafyreifpk2pv4izewedrukqaguxg5fxafitgkony3nws56uvkfooibeigm",
+            "author": {
+                "did": "did:plc:ynl2frkgfgqsi4s2v4q62gp6",
+                "handle": "blueskyuser123.bsky.social",
+                "displayName": "",
+                "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ynl2frkgfgqsi4s2v4q62gp6/bafkreif7vgd367neyjbebsnazzgdnsyk3qqp3dxofcte2zyqahxvtbi6zy@jpeg",
+                "labels": [],
+                "createdAt": "2024-10-01T16:22:14.106Z"
+            },
+            "record": {
+                "$type": "app.bsky.feed.post",
+                "createdAt": "2024-10-01T16:42:51.031493+00:00",
+                "langs": [
+                    "en"
+                ],
+                "text": "Hello world! I posted this via the Python SDK."
+            },
+            "replyCount": 0,
+            "repostCount": 0,
+            "likeCount": 8,
+            "quoteCount": 1,
+            "indexedAt": "2024-10-01T16:42:51.031Z",
+            "labels": []
+        }
+    ]
+}
