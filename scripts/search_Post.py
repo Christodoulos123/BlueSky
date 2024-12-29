@@ -12,7 +12,7 @@ headers = {
 
 # Parameters for the initial request
 params = {
-    "q": "Hello World!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",  # Search keyword
+    "q": "Hello World",  # Search keyword
     "sort": "latest",  # Sort by latest or top
 }
 
