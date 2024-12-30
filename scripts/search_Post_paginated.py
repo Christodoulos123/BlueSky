@@ -16,15 +16,12 @@ params = {
     "q": "Syria",  # Search query
     "sort": "latest",  # Sort by latest posts
     "limit": 100,  # Adjust limit as needed (default is 25)
-    "cursor": "",
 }
 
 # Optionally, add an Authorization header if required
 headers = {
 
 }
-
-
 
 all_results = []
 
@@ -61,7 +58,7 @@ while True:  # Keep fetching until there are no more results
 
 
 # Save the search results in a JSON file
-with open("search_posts_results_paginated.json", "w") as json_file:
+with open("../output/search_posts_results_paginated.json", "w") as json_file:
     json.dump(all_results, json_file, indent=4)  # indent=4 for pretty printing
 print("All search results have been saved to 'search_posts_results_paginated.json'.")
 
