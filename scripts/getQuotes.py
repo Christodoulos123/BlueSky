@@ -23,9 +23,9 @@ if response.status_code == 200:
     print("Quotes Data:", json.dumps(quotes_data, indent=4))
 
     # Save the quotes data in a JSON file
-    with open("quotes_data.json", "w") as json_file:
+    with open("../output/getQuotes.json", "w") as json_file:
         json.dump(quotes_data, json_file, indent=4)  # Pretty-print JSON
-    print("Quotes data has been saved to 'quotes_data.json'.")
+    print("Quotes data has been saved to 'getQuotes.json'.")
 else:
     print(f"Error: {response.status_code}")
     print(f"Response Text: {response.text}")

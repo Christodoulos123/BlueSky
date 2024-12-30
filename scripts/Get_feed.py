@@ -32,7 +32,7 @@ if response.status_code == 200:
     print("Feed:", feed_data)
     
     # Save the response to a JSON file
-    with open('feed_output.json', 'w') as json_file:
+    with open('../output/feed_output.json', 'w') as json_file:
         json.dump(feed_data, json_file, indent=4)
     print("Output saved to feed_output.json")
 else:

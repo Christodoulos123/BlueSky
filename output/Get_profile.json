@@ -1,0 +1,23 @@
+{
+    "did": "did:plc:a4pqq234yw7fqbddawjo7y35",
+    "handle": "theonion.com",
+    "displayName": "The Onion",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:a4pqq234yw7fqbddawjo7y35/bafkreiajdz4ktkjv5jrnye7sotgz6g5xarts6yu6ypbhninxqnvwoiwsfi@jpeg",
+    "associated": {
+        "lists": 0,
+        "feedgens": 0,
+        "starterPacks": 0,
+        "labeler": false,
+        "chat": {
+            "allowIncoming": "following"
+        }
+    },
+    "labels": [],
+    "createdAt": "2023-04-29T12:21:21.353Z",
+    "description": "America\u2019s Finest News Source.\n\nA @globaltetrahedron.bsky.social subsidiary. ",
+    "indexedAt": "2024-11-14T14:20:35.925Z",
+    "banner": "https://cdn.bsky.app/img/banner/plain/did:plc:a4pqq234yw7fqbddawjo7y35/bafkreicgch7tqdrzk2hjjwgjf5pwxy3rfkv2l2rpnyxqu2sxyrz6oenp44@jpeg",
+    "followersCount": 879399,
+    "followsCount": 3,
+    "postsCount": 1449
+}

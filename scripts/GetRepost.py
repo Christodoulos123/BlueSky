@@ -25,9 +25,9 @@ if response.status_code == 200:
     print("Reposts Data:", json.dumps(reposts_data, indent=4))
 
     # Save the reposts data in a JSON file
-    with open("reposts_data.json", "w") as json_file:
+    with open("../output/GetReposts.json", "w") as json_file:
         json.dump(reposts_data, json_file, indent=4)  # Pretty-print JSON
-    print("Reposts data has been saved to 'reposts_data.json'.")
+    print("Reposts data has been saved to 'GetReposts.json'.")
 else:
     print(f"Error: {response.status_code}")
     print(f"Response Text: {response.text}")

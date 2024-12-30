@@ -34,7 +34,7 @@ while True:
         print("Follows Data:", json.dumps(follows_data, indent=4))
         
         # Save the current page of results
-        with open("follows_data.json", "a") as json_file:
+        with open("../output/follows_data.json", "a") as json_file:
             json.dump(follows_data, json_file, indent=4)
 
         # Check for a cursor to fetch the next page

@@ -25,9 +25,9 @@ if response.status_code == 200:
     print("Search Results: ", search_results)
 
     # Save the search results in a JSON file
-    with open("search_Actors.json", "w") as json_file:
+    with open("../output/search_Actors.json", "w") as json_file:
         json.dump(search_results, json_file, indent=4)  # indent=4 for pretty printing
-    print("Search results have been saved to 'search_results.json'.")
+    print("Search results have been saved to 'search_Actor.json'.")
 else:
     print(f"Error: {response.status_code}")
     print(f"Response Text: {response.text}")

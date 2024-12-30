@@ -29,9 +29,9 @@ if response.status_code == 200:
     print("Thread Data: ", thread_data)
 
     # Save the thread data in a JSON file
-    with open("post_thread.json", "w") as json_file:
+    with open("../output/getThread.json", "w") as json_file:
         json.dump(thread_data, json_file, indent=4)  # indent=4 for pretty printing
-    print("Thread data has been saved to 'post_thread.json'.")
+    print("Thread data has been saved to 'getThread.json'.")
 else:
     print(f"Error: {response.status_code}")
     print(f"Response Text: {response.text}")

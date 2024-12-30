@@ -39,9 +39,9 @@ if response.status_code == 200:
     print("Likes Data: ", likes_data)
 
     # Save the likes data in a JSON file
-    with open("likes_data3.json", "w") as json_file:
+    with open("../output/getlikes.json", "w") as json_file:
         json.dump(likes_data, json_file, indent=4)  # indent=4 for pretty printing
-    print("Likes data has been saved to 'likes_data.json'.")
+    print("Likes data has been saved to 'getLikes.json'.")
 else:
     print(f"Error: {response.status_code}")
     print(f"Response Text: {response.text}")

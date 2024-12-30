@@ -38,12 +38,12 @@ response = requests.get(url, headers=headers, params=params)
 # Check if the request was successful
 if response.status_code == 200:
     data = response.json()
-    print("Hydrated Post Data: ", data)
+    print("Post Data: ", data)
 
     # Save the response in a JSON file
-    with open("post_data_withoutToken.json", "w") as json_file:
+    with open("../output/Get_post.json", "w") as json_file:
         json.dump(data, json_file, indent=4)  # indent=4 for pretty printing
-    print("Response has been saved to 'hydrated_post_data.json'.")
+    print("Response has been saved to 'Get_post.json'.")
 else:
     print(f"Error: {response.status_code}")
     print(f"Response Text: {response.text}")

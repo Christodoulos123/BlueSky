@@ -27,9 +27,9 @@ if response.status_code == 200:
     print("Profile Data: ", profile_data)
 
     # Save the profile data in a JSON file
-    with open("profile_data.json", "w") as json_file:
+    with open("../output/Get_profile.json", "w") as json_file:
         json.dump(profile_data, json_file, indent=4)  # indent=4 for pretty-printing the JSON
-    print("Profile data has been saved to 'profile_data.json'.")
+    print("Profile data has been saved to 'Get_profile.json'.")
 else:
     print(f"Error: {response.status_code}")
     print(f"Response Text: {response.text}")

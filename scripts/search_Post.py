@@ -12,12 +12,12 @@ headers = {
 
 # Parameters for the initial request
 params = {
-    "q": "Hello World",  # Search keyword
+    "q": "123",  # Search keyword
     "sort": "latest",  # Sort by latest or top
 }
 
 # File to save the results
-output_file = "output/search_results.json"
+output_file = "../output/search_Post.json"  # Relative path to the output folder
 
 # Store results
 all_results = []
