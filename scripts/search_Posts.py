@@ -7,9 +7,18 @@ client = Client(base_url='https://bsky.social')
 # Log in with your username and password
 client.login('blueskyuser123.bsky.social', '1234')
 
+# Read keywords from the txt file
+with open("/home/christodoulos/Documents/supplementary_files/supplementary_files/keywords_hashtags_phase1.txt", "r") as file:
+    keywords = [line.strip() for line in file.readlines()]
+
+# Format keywords into Lucene query syntax
+# Example: "keyword1 OR keyword2 OR keyword3"
+lucene_query = " || ".join(keywords)
+
+
 # Set up initial query parameters
 params = {
-    "q": "Syria",  # Search query
+    "q": lucene_query,  # Search query
     "sort": "latest",  # Sort by latest posts
     "limit": 100,  # Adjust limit as needed
 }
