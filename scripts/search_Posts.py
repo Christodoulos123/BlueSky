@@ -13,12 +13,12 @@ with open("/home/christodoulos/Documents/supplementary_files/supplementary_files
 
 # Format keywords into Lucene query syntax
 # Example: "keyword1 OR keyword2 OR keyword3"
-lucene_query = " || ".join(keywords)
+query = " || ".join(keywords)
 
 
 # Set up initial query parameters
 params = {
-    "q": lucene_query,  # Search query
+    "q": query,  # Search query
     "sort": "latest",  # Sort by latest posts
     "limit": 100,  # Adjust limit as needed
 }
@@ -30,7 +30,7 @@ while True:
     try:
         # Make the API request
         search_results = client.app.bsky.feed.search_posts(params)
-
+        
         # Validate and sanitize posts
         valid_posts = []
         for post in search_results.posts:
@@ -58,7 +58,7 @@ while True:
         break
 
 # Write results to CSV
-with open('../output/search_Posts.csv', 'w', newline='', encoding='utf-8') as csv_file:
+with open('../output/21_01_25/keywords_hashtags_phase1/Search_Posts.csv', 'w', newline='', encoding='utf-8') as csv_file:
     writer = csv.writer(csv_file)
     writer.writerow(["post's uri", "author's did", "post's text", "replyCount", "repostCount", "likeCount"])
 

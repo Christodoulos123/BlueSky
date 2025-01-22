@@ -1,15 +1,16 @@
 import csv
 from atproto import Client
+import time
 
 # Step 1: Set up Bluesky Client and Login
 client = Client(base_url='https://bsky.social')
 client.login('blueskyuser123.bsky.social', '1234')  # Use your credentials
 
 # Input CSV file with searched posts
-input_posts_csv = "../output/search_Posts.csv"
+input_posts_csv = "../output/21_01_25/keywords_hashtags_phase1/search_Posts.csv"
 
 # Output CSV file for replies
-output_replies_csv = "../output/comments_from_searchPost.csv"
+output_replies_csv = "../output/21_01_25/keywords_hashtags_phase1/comments_from_searchPost.csv"
 
 count = 1
 
@@ -36,6 +37,7 @@ with open(output_replies_csv, "w", newline="", encoding="utf-8") as replies_file
             }
 
             try:
+                time.sleep(0.1)
                 replies_results = client.app.bsky.feed.get_post_thread(replies_params)
 
                 # Save replies to the replies CSV
