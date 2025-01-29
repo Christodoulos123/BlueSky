@@ -1,0 +1,2145 @@
+[
+    {
+        "author": {
+            "did": "did:plc:drqzzhzbs3ebhyuz5f75fpg4",
+            "handle": "gincase.bsky.social",
+            "associated": {
+                "chat": {
+                    "allow_incoming": "all",
+                    "py_type": "app.bsky.actor.defs#profileAssociatedChat"
+                },
+                "feedgens": null,
+                "labeler": null,
+                "lists": null,
+                "starter_packs": null,
+                "py_type": "app.bsky.actor.defs#profileAssociated"
+            },
+            "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:drqzzhzbs3ebhyuz5f75fpg4/bafkreic6fpwa2omwyhpugk34swkjnlvx32ubum3cz6tqeaaf2xbgwib6ee@jpeg",
+            "created_at": "2023-08-08T01:36:37.703Z",
+            "display_name": "Ginny Brideau",
+            "labels": [],
+            "viewer": {
+                "blocked_by": false,
+                "blocking": null,
+                "blocking_by_list": null,
+                "followed_by": null,
+                "following": null,
+                "known_followers": null,
+                "muted": false,
+                "muted_by_list": null,
+                "py_type": "app.bsky.actor.defs#viewerState"
+            },
+            "py_type": "app.bsky.actor.defs#profileViewBasic"
+        },
+        "cid": "bafyreidm2l5tceqmuh4uq4leaecie2gbtlpazawmsyycgzrhvstsxvdpee",
+        "indexed_at": "2024-11-08T07:48:38.316Z",
+        "record": {
+            "created_at": "2013-02-13T03:33:47Z",
+            "text": "@Cougarfan75 I'm more of a Jill Stein kind of girl.",
+            "embed": null,
+            "entities": null,
+            "facets": null,
+            "labels": null,
+            "langs": null,
+            "reply": null,
+            "tags": null,
+            "py_type": "app.bsky.feed.post"
+        },
+        "uri": "at://did:plc:drqzzhzbs3ebhyuz5f75fpg4/app.bsky.feed.post/3lagbxdhy3s2v",
+        "embed": null,
+        "labels": [],
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0,
+        "threadgate": null,
+        "viewer": {
+            "embedding_disabled": false,
+            "like": null,
+            "reply_disabled": null,
+            "repost": null,
+            "thread_muted": false,
+            "py_type": "app.bsky.feed.defs#viewerState"
+        },
+        "py_type": "app.bsky.feed.defs#postView"
+    },
+    {
+        "author": {
+            "did": "did:plc:t4ixckim3y6ahadbls5a5lyn",
+            "handle": "demios101.bsky.social",
+            "associated": null,
+            "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:t4ixckim3y6ahadbls5a5lyn/bafkreifxdkjmimel36t3b2jjisngnordtu2dlsrvdaxfatxlb3qsdolnjq@jpeg",
+            "created_at": "2024-11-14T13:06:11.309Z",
+            "display_name": "Ray?",
+            "labels": [],
+            "viewer": {
+                "blocked_by": false,
+                "blocking": null,
+                "blocking_by_list": null,
+                "followed_by": null,
+                "following": null,
+                "known_followers": null,
+                "muted": false,
+                "muted_by_list": null,
+                "py_type": "app.bsky.actor.defs#viewerState"
+            },
+            "py_type": "app.bsky.actor.defs#profileViewBasic"
+        },
+        "cid": "bafyreichpmg4mt5uzzavsx3e5squfoh2rpigo7zzrvvjec5chjjuwkmzhm",
+        "indexed_at": "2024-11-14T15:21:19.773Z",
+        "record": {
+            "created_at": "2012-11-07T04:18:57Z",
+            "text": "Drinking celebratory beer. I am now interested in finding out how Stein/Green Party did.",
+            "embed": null,
+            "entities": null,
+            "facets": null,
+            "labels": null,
+            "langs": null,
+            "reply": null,
+            "tags": null,
+            "py_type": "app.bsky.feed.post"
+        },
+        "uri": "at://did:plc:t4ixckim3y6ahadbls5a5lyn/app.bsky.feed.post/3law62dkby72j",
+        "embed": null,
+        "labels": [],
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0,
+        "threadgate": null,
+        "viewer": {
+            "embedding_disabled": false,
+            "like": null,
+            "reply_disabled": null,
+            "repost": null,
+            "thread_muted": false,
+            "py_type": "app.bsky.feed.defs#viewerState"
+        },
+        "py_type": "app.bsky.feed.defs#postView"
+    },
+    {
+        "author": {
+            "did": "did:plc:uk5w742bdiqtx3w2b2mb5di5",
+            "handle": "stpaulmaggie.bsky.social",
+            "associated": {
+                "chat": {
+                    "allow_incoming": "all",
+                    "py_type": "app.bsky.actor.defs#profileAssociatedChat"
+                },
+                "feedgens": null,
+                "labeler": null,
+                "lists": null,
+                "starter_packs": null,
+                "py_type": "app.bsky.actor.defs#profileAssociated"
+            },
+            "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:uk5w742bdiqtx3w2b2mb5di5/bafkreicqll6qwkvsmocdxp2rkvri27ffqp3vinkgjkakhcpeino6da5mkq@jpeg",
+            "created_at": "2024-10-31T22:20:20.958Z",
+            "display_name": "Maggie NLN",
+            "labels": [],
+            "viewer": {
+                "blocked_by": false,
+                "blocking": null,
+                "blocking_by_list": null,
+                "followed_by": null,
+                "following": null,
+                "known_followers": null,
+                "muted": false,
+                "muted_by_list": null,
+                "py_type": "app.bsky.actor.defs#viewerState"
+            },
+            "py_type": "app.bsky.actor.defs#profileViewBasic"
+        },
+        "cid": "bafyreia57i6ke46nyfie7sxw76aznna2zgrbng3bmcox3fxslatauh6taq",
+        "indexed_at": "2024-11-18T11:42:08.691Z",
+        "record": {
+            "created_at": "2012-11-07T02:46:51Z",
+            "text": "@jillstein2012 I voted for Jill Stein for president today! No regrets:-)  Cheers.",
+            "embed": null,
+            "entities": null,
+            "facets": null,
+            "labels": null,
+            "langs": null,
+            "reply": null,
+            "tags": null,
+            "py_type": "app.bsky.feed.post"
+        },
+        "uri": "at://did:plc:uk5w742bdiqtx3w2b2mb5di5/app.bsky.feed.post/3lb7to3jbac2f",
+        "embed": null,
+        "labels": [],
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0,
+        "threadgate": null,
+        "viewer": {
+            "embedding_disabled": false,
+            "like": null,
+            "reply_disabled": null,
+            "repost": null,
+            "thread_muted": false,
+            "py_type": "app.bsky.feed.defs#viewerState"
+        },
+        "py_type": "app.bsky.feed.defs#postView"
+    },
+    {
+        "author": {
+            "did": "did:plc:jyplmv6psbcdtrtl3ffwdlzg",
+            "handle": "nicksturm.bsky.social",
+            "associated": null,
+            "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:jyplmv6psbcdtrtl3ffwdlzg/bafkreidetfgv4ch7kkwzsgftnn6r7blef6tq75qzlel5nzlreushcrqn54@jpeg",
+            "created_at": "2023-09-19T14:20:56.506Z",
+            "display_name": "Nick Sturm",
+            "labels": [],
+            "viewer": {
+                "blocked_by": false,
+                "blocking": null,
+                "blocking_by_list": null,
+                "followed_by": null,
+                "following": null,
+                "known_followers": null,
+                "muted": false,
+                "muted_by_list": null,
+                "py_type": "app.bsky.actor.defs#viewerState"
+            },
+            "py_type": "app.bsky.actor.defs#profileViewBasic"
+        },
+        "cid": "bafyreihscgcwymjm7zsuw5kp6wybgtjwti4pgnlnfxlsfeykj7lxepebti",
+        "indexed_at": "2024-11-14T05:44:47.311Z",
+        "record": {
+            "created_at": "2012-11-07T02:11:51Z",
+            "text": "@carrielorig gertrude stein comes back from the dead as jill stein to vote for herself from france. ballot destroyed in alice's pot brownies",
+            "embed": null,
+            "entities": null,
+            "facets": null,
+            "labels": null,
+            "langs": null,
+            "reply": null,
+            "tags": null,
+            "py_type": "app.bsky.feed.post"
+        },
+        "uri": "at://did:plc:jyplmv6psbcdtrtl3ffwdlzg/app.bsky.feed.post/3lav5tfjoqf23",
+        "embed": null,
+        "labels": [],
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0,
+        "threadgate": null,
+        "viewer": {
+            "embedding_disabled": false,
+            "like": null,
+            "reply_disabled": null,
+            "repost": null,
+            "thread_muted": false,
+            "py_type": "app.bsky.feed.defs#viewerState"
+        },
+        "py_type": "app.bsky.feed.defs#postView"
+    },
+    {
+        "author": {
+            "did": "did:plc:2mxkrxmt3ut5mx7nlzq4fzmh",
+            "handle": "stuartbruce.biz",
+            "associated": {
+                "chat": {
+                    "allow_incoming": "all",
+                    "py_type": "app.bsky.actor.defs#profileAssociatedChat"
+                },
+                "feedgens": null,
+                "labeler": null,
+                "lists": null,
+                "starter_packs": null,
+                "py_type": "app.bsky.actor.defs#profileAssociated"
+            },
+            "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:2mxkrxmt3ut5mx7nlzq4fzmh/bafkreig5sduyoj6raknfhzvger64jd4dqy527cgwu26ac3dm2jxbegvzvm@jpeg",
+            "created_at": "2023-05-12T17:38:16.704Z",
+            "display_name": "Stuart Bruce",
+            "labels": [],
+            "viewer": {
+                "blocked_by": false,
+                "blocking": null,
+                "blocking_by_list": null,
+                "followed_by": null,
+                "following": null,
+                "known_followers": null,
+                "muted": false,
+                "muted_by_list": null,
+                "py_type": "app.bsky.actor.defs#viewerState"
+            },
+            "py_type": "app.bsky.actor.defs#profileViewBasic"
+        },
+        "cid": "bafyreihwm5yzq2xwlxhpmexqb4o3igne6clywrml3sjbywhnhu3u632awq",
+        "indexed_at": "2025-01-13T11:15:21.924Z",
+        "record": {
+            "created_at": "2012-11-06T17:39:13.000Z",
+            "text": "I side 88% with Barack Obama, but with a bit of Jill Stein (Green) on foreign policy issues...\n\nisidewith.com/results/222163…",
+            "embed": {
+                "external": {
+                    "description": "iSideWith shows which candidates you side with based on the political issues selected most important to you. Try it now!",
+                    "title": "My Political Parties",
+                    "uri": "http://t.co/iWM0ANEy",
+                    "thumb": null,
+                    "py_type": "app.bsky.embed.external#external"
+                },
+                "py_type": "app.bsky.embed.external"
+            },
+            "entities": null,
+            "facets": [
+                {
+                    "features": [
+                        {
+                            "uri": "https://isidewith.com/results/222163…",
+                            "py_type": "app.bsky.richtext.facet#link"
+                        }
+                    ],
+                    "index": {
+                        "byte_end": 127,
+                        "byte_start": 96,
+                        "py_type": "app.bsky.richtext.facet#byteSlice"
+                    },
+                    "py_type": "app.bsky.richtext.facet"
+                }
+            ],
+            "labels": null,
+            "langs": null,
+            "reply": null,
+            "tags": null,
+            "py_type": "app.bsky.feed.post"
+        },
+        "uri": "at://did:plc:2mxkrxmt3ut5mx7nlzq4fzmh/app.bsky.feed.post/3lfmmbqwh4h2m",
+        "embed": {
+            "external": {
+                "description": "iSideWith shows which candidates you side with based on the political issues selected most important to you. Try it now!",
+                "title": "My Political Parties",
+                "uri": "http://t.co/iWM0ANEy",
+                "thumb": null,
+                "py_type": "app.bsky.embed.external#viewExternal"
+            },
+            "py_type": "app.bsky.embed.external#view"
+        },
+        "labels": [],
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0,
+        "threadgate": null,
+        "viewer": {
+            "embedding_disabled": false,
+            "like": null,
+            "reply_disabled": null,
+            "repost": null,
+            "thread_muted": false,
+            "py_type": "app.bsky.feed.defs#viewerState"
+        },
+        "py_type": "app.bsky.feed.defs#postView"
+    },
+    {
+        "author": {
+            "did": "did:plc:t4ixckim3y6ahadbls5a5lyn",
+            "handle": "demios101.bsky.social",
+            "associated": null,
+            "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:t4ixckim3y6ahadbls5a5lyn/bafkreifxdkjmimel36t3b2jjisngnordtu2dlsrvdaxfatxlb3qsdolnjq@jpeg",
+            "created_at": "2024-11-14T13:06:11.309Z",
+            "display_name": "Ray?",
+            "labels": [],
+            "viewer": {
+                "blocked_by": false,
+                "blocking": null,
+                "blocking_by_list": null,
+                "followed_by": null,
+                "following": null,
+                "known_followers": null,
+                "muted": false,
+                "muted_by_list": null,
+                "py_type": "app.bsky.actor.defs#viewerState"
+            },
+            "py_type": "app.bsky.actor.defs#profileViewBasic"
+        },
+        "cid": "bafyreiaypylbupjugdyg4usqjipohyf7mb3cvzan2llh247qjq6idsbjhy",
+        "indexed_at": "2024-11-14T15:21:46.158Z",
+        "record": {
+            "created_at": "2012-11-02T17:50:47Z",
+            "text": "Jill Stein is awesome. I thought that you should know.",
+            "embed": null,
+            "entities": null,
+            "facets": null,
+            "labels": null,
+            "langs": null,
+            "reply": null,
+            "tags": null,
+            "py_type": "app.bsky.feed.post"
+        },
+        "uri": "at://did:plc:t4ixckim3y6ahadbls5a5lyn/app.bsky.feed.post/3law634mjua26",
+        "embed": null,
+        "labels": [],
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0,
+        "threadgate": null,
+        "viewer": {
+            "embedding_disabled": false,
+            "like": null,
+            "reply_disabled": null,
+            "repost": null,
+            "thread_muted": false,
+            "py_type": "app.bsky.feed.defs#viewerState"
+        },
+        "py_type": "app.bsky.feed.defs#postView"
+    },
+    {
+        "author": {
+            "did": "did:plc:t6ylzujdaa3f6mlpxn6gjqf5",
+            "handle": "billmckibben.bsky.social",
+            "associated": null,
+            "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:t6ylzujdaa3f6mlpxn6gjqf5/bafkreicmm7arw7njggf5xjhkm5uaexvkwj7e773pegrrg6o74m347jifyy@jpeg",
+            "created_at": "2023-06-14T21:53:19.040Z",
+            "display_name": "Bill McKibben",
+            "labels": [],
+            "viewer": {
+                "blocked_by": false,
+                "blocking": null,
+                "blocking_by_list": null,
+                "followed_by": null,
+                "following": null,
+                "known_followers": null,
+                "muted": false,
+                "muted_by_list": null,
+                "py_type": "app.bsky.actor.defs#viewerState"
+            },
+            "py_type": "app.bsky.actor.defs#profileViewBasic"
+        },
+        "cid": "bafyreiaikhwh7of7biz4nww34nq6itlukmqitnvskn3t2ybqglsgqqzkn4",
+        "indexed_at": "2024-12-05T17:39:16.523Z",
+        "record": {
+            "created_at": "2012-10-31T18:29:29Z",
+            "text": "good for green party candidate jill stein who got arrested at kxl blockade today in TX  http://www.jillstein.org/jill_stein_went_to_front_line_of_climate_crisis?utm_campaign=keystone_arrest&recruiter_id=41944&utm_medium=email&utm_source=jillstein @KXLBlockade #nokxl",
+            "embed": {
+                "external": {
+                    "description": "People. Planet. Peace.",
+                    "title": "Stein / Ware 2024",
+                    "uri": "http://www.jillstein.org/jill_stein_went_to_front_line_of_climate_crisis?utm_campaign=keystone_arrest&recruiter_id=41944&utm_medium=email&utm_source=jillstein",
+                    "thumb": null,
+                    "py_type": "app.bsky.embed.external#external"
+                },
+                "py_type": "app.bsky.embed.external"
+            },
+            "entities": null,
+            "facets": [
+                {
+                    "features": [
+                        {
+                            "uri": "http://www.jillstein.org/jill_stein_went_to_front_line_of_climate_crisis?utm_campaign=keystone_arrest&recruiter_id=41944&utm_medium=email&utm_source=jillstein",
+                            "py_type": "app.bsky.richtext.facet#link"
+                        }
+                    ],
+                    "index": {
+                        "byte_end": 246,
+                        "byte_start": 88,
+                        "py_type": "app.bsky.richtext.facet#byteSlice"
+                    },
+                    "py_type": "app.bsky.richtext.facet"
+                },
+                {
+                    "features": [
+                        {
+                            "tag": "nokxl",
+                            "py_type": "app.bsky.richtext.facet#tag"
+                        }
+                    ],
+                    "index": {
+                        "byte_end": 266,
+                        "byte_start": 260,
+                        "py_type": "app.bsky.richtext.facet#byteSlice"
+                    },
+                    "py_type": "app.bsky.richtext.facet"
+                }
+            ],
+            "labels": null,
+            "langs": null,
+            "reply": null,
+            "tags": null,
+            "py_type": "app.bsky.feed.post"
+        },
+        "uri": "at://did:plc:t6ylzujdaa3f6mlpxn6gjqf5/app.bsky.feed.post/3lcl7kdjmhs2y",
+        "embed": {
+            "external": {
+                "description": "People. Planet. Peace.",
+                "title": "Stein / Ware 2024",
+                "uri": "http://www.jillstein.org/jill_stein_went_to_front_line_of_climate_crisis?utm_campaign=keystone_arrest&recruiter_id=41944&utm_medium=email&utm_source=jillstein",
+                "thumb": null,
+                "py_type": "app.bsky.embed.external#viewExternal"
+            },
+            "py_type": "app.bsky.embed.external#view"
+        },
+        "labels": [],
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0,
+        "threadgate": null,
+        "viewer": {
+            "embedding_disabled": false,
+            "like": null,
+            "reply_disabled": null,
+            "repost": null,
+            "thread_muted": false,
+            "py_type": "app.bsky.feed.defs#viewerState"
+        },
+        "py_type": "app.bsky.feed.defs#postView"
+    },
+    {
+        "author": {
+            "did": "did:plc:lmpg5t4g75lulvova2j7imd2",
+            "handle": "marylovesveg.bsky.social",
+            "associated": null,
+            "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:lmpg5t4g75lulvova2j7imd2/bafkreiadgisi3m5poly2dckmrdrlknszhzq6asyogskhbpdth7ns6tcwka@jpeg",
+            "created_at": "2024-11-13T19:34:18.217Z",
+            "display_name": "MaryLovesVeg",
+            "labels": [],
+            "viewer": {
+                "blocked_by": false,
+                "blocking": null,
+                "blocking_by_list": null,
+                "followed_by": null,
+                "following": null,
+                "known_followers": null,
+                "muted": false,
+                "muted_by_list": null,
+                "py_type": "app.bsky.actor.defs#viewerState"
+            },
+            "py_type": "app.bsky.actor.defs#profileViewBasic"
+        },
+        "cid": "bafyreihgexvclg7imwd6l7isk4orfz4fandc6ojxqznbj5vwnoy654qxli",
+        "indexed_at": "2024-12-02T12:03:50.917Z",
+        "record": {
+            "created_at": "2012-10-31T00:21:53Z",
+            "text": "No surprises here! I side 97% with Jill Stein... http://www.isidewith.com/results/194099338",
+            "embed": {
+                "external": {
+                    "description": "iSideWith shows which candidates you side with based on t...",
+                    "title": "My Political Parties",
+                    "uri": "http://www.isidewith.com/results/194099338",
+                    "thumb": null,
+                    "py_type": "app.bsky.embed.external#external"
+                },
+                "py_type": "app.bsky.embed.external"
+            },
+            "entities": null,
+            "facets": [
+                {
+                    "features": [
+                        {
+                            "uri": "http://www.isidewith.com/results/194099338",
+                            "py_type": "app.bsky.richtext.facet#link"
+                        }
+                    ],
+                    "index": {
+                        "byte_end": 91,
+                        "byte_start": 49,
+                        "py_type": "app.bsky.richtext.facet#byteSlice"
+                    },
+                    "py_type": "app.bsky.richtext.facet"
+                }
+            ],
+            "labels": null,
+            "langs": null,
+            "reply": null,
+            "tags": null,
+            "py_type": "app.bsky.feed.post"
+        },
+        "uri": "at://did:plc:lmpg5t4g75lulvova2j7imd2/app.bsky.feed.post/3lcd3frwfbd2o",
+        "embed": {
+            "external": {
+                "description": "iSideWith shows which candidates you side with based on t...",
+                "title": "My Political Parties",
+                "uri": "http://www.isidewith.com/results/194099338",
+                "thumb": null,
+                "py_type": "app.bsky.embed.external#viewExternal"
+            },
+            "py_type": "app.bsky.embed.external#view"
+        },
+        "labels": [],
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0,
+        "threadgate": null,
+        "viewer": {
+            "embedding_disabled": false,
+            "like": null,
+            "reply_disabled": null,
+            "repost": null,
+            "thread_muted": false,
+            "py_type": "app.bsky.feed.defs#viewerState"
+        },
+        "py_type": "app.bsky.feed.defs#postView"
+    },
+    {
+        "author": {
+            "did": "did:plc:mztumvaebcz5jzoaffoi73be",
+            "handle": "katarinasubasic.bsky.social",
+            "associated": {
+                "chat": {
+                    "allow_incoming": "all",
+                    "py_type": "app.bsky.actor.defs#profileAssociatedChat"
+                },
+                "feedgens": null,
+                "labeler": null,
+                "lists": null,
+                "starter_packs": null,
+                "py_type": "app.bsky.actor.defs#profileAssociated"
+            },
+            "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:mztumvaebcz5jzoaffoi73be/bafkreicckdfybmqfieqv6mtiimvdcul666nr655zmtvognrmv2wmylnlgi@jpeg",
+            "created_at": "2024-01-15T12:30:14.096Z",
+            "display_name": "Katarina Subasic",
+            "labels": [],
+            "viewer": {
+                "blocked_by": false,
+                "blocking": null,
+                "blocking_by_list": null,
+                "followed_by": null,
+                "following": null,
+                "known_followers": null,
+                "muted": false,
+                "muted_by_list": null,
+                "py_type": "app.bsky.actor.defs#viewerState"
+            },
+            "py_type": "app.bsky.actor.defs#profileViewBasic"
+        },
+        "cid": "bafyreifihrjjcst3onmbadhcvhhv523dcta7y7nozqefomalssgnlhvmpm",
+        "indexed_at": "2024-11-20T07:57:34.909Z",
+        "record": {
+            "created_at": "2012-10-27T17:53:25.000Z",
+            "text": "I side 95% with Jill Stein...",
+            "embed": null,
+            "entities": null,
+            "facets": null,
+            "labels": null,
+            "langs": null,
+            "reply": null,
+            "tags": null,
+            "py_type": "app.bsky.feed.post"
+        },
+        "uri": "at://did:plc:mztumvaebcz5jzoaffoi73be/app.bsky.feed.post/3lbei2er2rv2p",
+        "embed": null,
+        "labels": [],
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0,
+        "threadgate": null,
+        "viewer": {
+            "embedding_disabled": false,
+            "like": null,
+            "reply_disabled": null,
+            "repost": null,
+            "thread_muted": false,
+            "py_type": "app.bsky.feed.defs#viewerState"
+        },
+        "py_type": "app.bsky.feed.defs#postView"
+    },
+    {
+        "author": {
+            "did": "did:plc:kn7cbydclcgf4b4jcl3cpnjk",
+            "handle": "luthvian.bsky.social",
+            "associated": null,
+            "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:kn7cbydclcgf4b4jcl3cpnjk/bafkreic2knk5qgn3zmx2tww5oxoplnaskyzjctvhswdtgwp2qognhhqqje@jpeg",
+            "created_at": "2023-08-31T16:57:49.201Z",
+            "display_name": "Luthvian",
+            "labels": [],
+            "viewer": {
+                "blocked_by": false,
+                "blocking": null,
+                "blocking_by_list": null,
+                "followed_by": null,
+                "following": null,
+                "known_followers": null,
+                "muted": false,
+                "muted_by_list": null,
+                "py_type": "app.bsky.actor.defs#viewerState"
+            },
+            "py_type": "app.bsky.actor.defs#profileViewBasic"
+        },
+        "cid": "bafyreient63fjoe4eqjaldwmiixoetcexvhj7m4e2624inbqcnko6gmpai",
+        "indexed_at": "2024-12-05T16:28:53.131Z",
+        "record": {
+            "created_at": "2012-10-24T02:16:42Z",
+            "text": "\"Money is not speech, and corporations are not people.\" I like Jill Stein.",
+            "embed": null,
+            "entities": null,
+            "facets": null,
+            "labels": null,
+            "langs": null,
+            "reply": null,
+            "tags": null,
+            "py_type": "app.bsky.feed.post"
+        },
+        "uri": "at://did:plc:kn7cbydclcgf4b4jcl3cpnjk/app.bsky.feed.post/3lcl3mhugok24",
+        "embed": null,
+        "labels": [],
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0,
+        "threadgate": null,
+        "viewer": {
+            "embedding_disabled": false,
+            "like": null,
+            "reply_disabled": null,
+            "repost": null,
+            "thread_muted": false,
+            "py_type": "app.bsky.feed.defs#viewerState"
+        },
+        "py_type": "app.bsky.feed.defs#postView"
+    },
+    {
+        "author": {
+            "did": "did:plc:rjogkorsr2ehdg4on4vnamym",
+            "handle": "heathriel.bsky.social",
+            "associated": null,
+            "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rjogkorsr2ehdg4on4vnamym/bafkreiac6tnpr477dam5drmviyn6f4vwaac7myugrsy6ayjke5i54ibh6a@jpeg",
+            "created_at": "2023-07-04T13:42:54.165Z",
+            "display_name": "Heather Wilde Renze",
+            "labels": [],
+            "viewer": {
+                "blocked_by": false,
+                "blocking": null,
+                "blocking_by_list": null,
+                "followed_by": null,
+                "following": null,
+                "known_followers": null,
+                "muted": false,
+                "muted_by_list": null,
+                "py_type": "app.bsky.actor.defs#viewerState"
+            },
+            "py_type": "app.bsky.actor.defs#profileViewBasic"
+        },
+        "cid": "bafyreibfqv6hwcxlfrhc3xkw6owajdtzujjhpm6sc2kwallnkdoyjtxd7y",
+        "indexed_at": "2024-12-08T05:06:00.716Z",
+        "record": {
+            "created_at": "2012-10-23T03:49:23Z",
+            "text": "I side 82% with Jill Stein... http://www.isidewith.com/results/173250023",
+            "embed": {
+                "external": {
+                    "description": "iSideWith shows which candidates you side with based on t...",
+                    "title": "My Political Parties",
+                    "uri": "http://www.isidewith.com/results/173250023",
+                    "thumb": null,
+                    "py_type": "app.bsky.embed.external#external"
+                },
+                "py_type": "app.bsky.embed.external"
+            },
+            "entities": null,
+            "facets": [
+                {
+                    "features": [
+                        {
+                            "uri": "http://www.isidewith.com/results/173250023",
+                            "py_type": "app.bsky.richtext.facet#link"
+                        }
+                    ],
+                    "index": {
+                        "byte_end": 72,
+                        "byte_start": 30,
+                        "py_type": "app.bsky.richtext.facet#byteSlice"
+                    },
+                    "py_type": "app.bsky.richtext.facet"
+                }
+            ],
+            "labels": null,
+            "langs": null,
+            "reply": null,
+            "tags": null,
+            "py_type": "app.bsky.feed.post"
+        },
+        "uri": "at://did:plc:rjogkorsr2ehdg4on4vnamym/app.bsky.feed.post/3lcrgu5rsjq2o",
+        "embed": {
+            "external": {
+                "description": "iSideWith shows which candidates you side with based on t...",
+                "title": "My Political Parties",
+                "uri": "http://www.isidewith.com/results/173250023",
+                "thumb": null,
+                "py_type": "app.bsky.embed.external#viewExternal"
+            },
+            "py_type": "app.bsky.embed.external#view"
+        },
+        "labels": [],
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0,
+        "threadgate": null,
+        "viewer": {
+            "embedding_disabled": false,
+            "like": null,
+            "reply_disabled": null,
+            "repost": null,
+            "thread_muted": false,
+            "py_type": "app.bsky.feed.defs#viewerState"
+        },
+        "py_type": "app.bsky.feed.defs#postView"
+    },
+    {
+        "author": {
+            "did": "did:plc:lqxtuio362hvs7hxofyfq2in",
+            "handle": "kempo50.bsky.social",
+            "associated": null,
+            "avatar": null,
+            "created_at": "2024-11-09T22:57:37.618Z",
+            "display_name": "Kempo50",
+            "labels": [],
+            "viewer": {
+                "blocked_by": false,
+                "blocking": null,
+                "blocking_by_list": null,
+                "followed_by": null,
+                "following": null,
+                "known_followers": null,
+                "muted": false,
+                "muted_by_list": null,
+                "py_type": "app.bsky.actor.defs#viewerState"
+            },
+            "py_type": "app.bsky.actor.defs#profileViewBasic"
+        },
+        "cid": "bafyreifoy7ooo7nyakua2jikzb7rfazrrpinflxuvt4ncut7x4abwo2i4a",
+        "indexed_at": "2024-12-03T11:31:50.535Z",
+        "record": {
+            "created_at": "2012-10-22T23:36:23Z",
+            "text": "#US pres. #debates: Foreign policy diffs btw #GOP & #Dems are marginal.  Wish #Green Party #pres. candidate Jill #Stein were in debate.",
+            "embed": null,
+            "entities": null,
+            "facets": [
+                {
+                    "features": [
+                        {
+                            "tag": "US",
+                            "py_type": "app.bsky.richtext.facet#tag"
+                        }
+                    ],
+                    "index": {
+                        "byte_end": 3,
+                        "byte_start": 0,
+                        "py_type": "app.bsky.richtext.facet#byteSlice"
+                    },
+                    "py_type": "app.bsky.richtext.facet"
+                },
+                {
+                    "features": [
+                        {
+                            "tag": "debates",
+                            "py_type": "app.bsky.richtext.facet#tag"
+                        }
+                    ],
+                    "index": {
+                        "byte_end": 18,
+                        "byte_start": 10,
+                        "py_type": "app.bsky.richtext.facet#byteSlice"
+                    },
+                    "py_type": "app.bsky.richtext.facet"
+                },
+                {
+                    "features": [
+                        {
+                            "tag": "GOP",
+                            "py_type": "app.bsky.richtext.facet#tag"
+                        }
+                    ],
+                    "index": {
+                        "byte_end": 49,
+                        "byte_start": 45,
+                        "py_type": "app.bsky.richtext.facet#byteSlice"
+                    },
+                    "py_type": "app.bsky.richtext.facet"
+                },
+                {
+                    "features": [
+                        {
+                            "tag": "Dems",
+                            "py_type": "app.bsky.richtext.facet#tag"
+                        }
+                    ],
+                    "index": {
+                        "byte_end": 57,
+                        "byte_start": 52,
+                        "py_type": "app.bsky.richtext.facet#byteSlice"
+                    },
+                    "py_type": "app.bsky.richtext.facet"
+                },
+                {
+                    "features": [
+                        {
+                            "tag": "Green",
+                            "py_type": "app.bsky.richtext.facet#tag"
+                        }
+                    ],
+                    "index": {
+                        "byte_end": 84,
+                        "byte_start": 78,
+                        "py_type": "app.bsky.richtext.facet#byteSlice"
+                    },
+                    "py_type": "app.bsky.richtext.facet"
+                },
+                {
+                    "features": [
+                        {
+                            "tag": "pres",
+                            "py_type": "app.bsky.richtext.facet#tag"
+                        }
+                    ],
+                    "index": {
+                        "byte_end": 96,
+                        "byte_start": 91,
+                        "py_type": "app.bsky.richtext.facet#byteSlice"
+                    },
+                    "py_type": "app.bsky.richtext.facet"
+                },
+                {
+                    "features": [
+                        {
+                            "tag": "Stein",
+                            "py_type": "app.bsky.richtext.facet#tag"
+                        }
+                    ],
+                    "index": {
+                        "byte_end": 119,
+                        "byte_start": 113,
+                        "py_type": "app.bsky.richtext.facet#byteSlice"
+                    },
+                    "py_type": "app.bsky.richtext.facet"
+                }
+            ],
+            "labels": null,
+            "langs": null,
+            "reply": null,
+            "tags": null,
+            "py_type": "app.bsky.feed.post"
+        },
+        "uri": "at://did:plc:lqxtuio362hvs7hxofyfq2in/app.bsky.feed.post/3lcfk3hwf7q2x",
+        "embed": null,
+        "labels": [],
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0,
+        "threadgate": null,
+        "viewer": {
+            "embedding_disabled": false,
+            "like": null,
+            "reply_disabled": null,
+            "repost": null,
+            "thread_muted": false,
+            "py_type": "app.bsky.feed.defs#viewerState"
+        },
+        "py_type": "app.bsky.feed.defs#postView"
+    },
+    {
+        "author": {
+            "did": "did:plc:lqxtuio362hvs7hxofyfq2in",
+            "handle": "kempo50.bsky.social",
+            "associated": null,
+            "avatar": null,
+            "created_at": "2024-11-09T22:57:37.618Z",
+            "display_name": "Kempo50",
+            "labels": [],
+            "viewer": {
+                "blocked_by": false,
+                "blocking": null,
+                "blocking_by_list": null,
+                "followed_by": null,
+                "following": null,
+                "known_followers": null,
+                "muted": false,
+                "muted_by_list": null,
+                "py_type": "app.bsky.actor.defs#viewerState"
+            },
+            "py_type": "app.bsky.actor.defs#profileViewBasic"
+        },
+        "cid": "bafyreibe5wgzcwopubmczo745fmws5gn4tgvvg7gk7l5ourxoysehx3y74",
+        "indexed_at": "2024-12-03T11:37:11.417Z",
+        "record": {
+            "created_at": "2012-10-22T23:19:43Z",
+            "text": "#US #election:  Green Party Candidate Jill Stein sues Pres. Debate Commission  http://warisacrime.org/content/jill-stein-sues-presidential-debate-commission",
+            "embed": null,
+            "entities": null,
+            "facets": [
+                {
+                    "features": [
+                        {
+                            "uri": "http://warisacrime.org/content/jill-stein-sues-presidential-debate-commission",
+                            "py_type": "app.bsky.richtext.facet#link"
+                        }
+                    ],
+                    "index": {
+                        "byte_end": 156,
+                        "byte_start": 79,
+                        "py_type": "app.bsky.richtext.facet#byteSlice"
+                    },
+                    "py_type": "app.bsky.richtext.facet"
+                },
+                {
+                    "features": [
+                        {
+                            "tag": "US",
+                            "py_type": "app.bsky.richtext.facet#tag"
+                        }
+                    ],
+                    "index": {
+                        "byte_end": 3,
+                        "byte_start": 0,
+                        "py_type": "app.bsky.richtext.facet#byteSlice"
+                    },
+                    "py_type": "app.bsky.richtext.facet"
+                },
+                {
+                    "features": [
+                        {
+                            "tag": "election",
+                            "py_type": "app.bsky.richtext.facet#tag"
+                        }
+                    ],
+                    "index": {
+                        "byte_end": 13,
+                        "byte_start": 4,
+                        "py_type": "app.bsky.richtext.facet#byteSlice"
+                    },
+                    "py_type": "app.bsky.richtext.facet"
+                }
+            ],
+            "labels": null,
+            "langs": null,
+            "reply": null,
+            "tags": null,
+            "py_type": "app.bsky.feed.post"
+        },
+        "uri": "at://did:plc:lqxtuio362hvs7hxofyfq2in/app.bsky.feed.post/3lcfkezzpbl24",
+        "embed": null,
+        "labels": [],
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0,
+        "threadgate": null,
+        "viewer": {
+            "embedding_disabled": false,
+            "like": null,
+            "reply_disabled": null,
+            "repost": null,
+            "thread_muted": false,
+            "py_type": "app.bsky.feed.defs#viewerState"
+        },
+        "py_type": "app.bsky.feed.defs#postView"
+    },
+    {
+        "author": {
+            "did": "did:plc:amzehyqkggpx7fsjpx5hccgu",
+            "handle": "colinrturner.com",
+            "associated": null,
+            "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:amzehyqkggpx7fsjpx5hccgu/bafkreihtoxcx27kvojehfpliwexoleipufn2rdkxl5oqqzom3v2m62egbe@jpeg",
+            "created_at": "2024-11-13T22:35:16.719Z",
+            "display_name": "Colin R. Turner",
+            "labels": [],
+            "viewer": {
+                "blocked_by": false,
+                "blocking": null,
+                "blocking_by_list": null,
+                "followed_by": null,
+                "following": null,
+                "known_followers": null,
+                "muted": false,
+                "muted_by_list": null,
+                "py_type": "app.bsky.actor.defs#viewerState"
+            },
+            "py_type": "app.bsky.actor.defs#profileViewBasic"
+        },
+        "cid": "bafyreiaz4x22ioknqt4z5u5eqbca3o3og6a7y22fm6uc7vum42bn4slnc4",
+        "indexed_at": "2025-01-19T13:13:26.020Z",
+        "record": {
+            "created_at": "2012-10-18T04:56:26Z",
+            "text": "Politics is crazy!\n\nJill Stein, the Green party candidate for President of the United States, a 62-year old... http://fb.me/1eMvOpAWp",
+            "embed": {
+                "external": {
+                    "description": "People. Planet. Peace.",
+                    "title": "Stein / Ware 2024",
+                    "uri": "http://fb.me/1eMvOpAWp",
+                    "thumb": null,
+                    "py_type": "app.bsky.embed.external#external"
+                },
+                "py_type": "app.bsky.embed.external"
+            },
+            "entities": null,
+            "facets": [
+                {
+                    "features": [
+                        {
+                            "uri": "http://fb.me/1eMvOpAWp",
+                            "py_type": "app.bsky.richtext.facet#link"
+                        }
+                    ],
+                    "index": {
+                        "byte_end": 133,
+                        "byte_start": 111,
+                        "py_type": "app.bsky.richtext.facet#byteSlice"
+                    },
+                    "py_type": "app.bsky.richtext.facet"
+                }
+            ],
+            "labels": null,
+            "langs": null,
+            "reply": null,
+            "tags": null,
+            "py_type": "app.bsky.feed.post"
+        },
+        "uri": "at://did:plc:amzehyqkggpx7fsjpx5hccgu/app.bsky.feed.post/3lg3vofnty425",
+        "embed": {
+            "external": {
+                "description": "People. Planet. Peace.",
+                "title": "Stein / Ware 2024",
+                "uri": "http://fb.me/1eMvOpAWp",
+                "thumb": null,
+                "py_type": "app.bsky.embed.external#viewExternal"
+            },
+            "py_type": "app.bsky.embed.external#view"
+        },
+        "labels": [],
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0,
+        "threadgate": null,
+        "viewer": {
+            "embedding_disabled": false,
+            "like": null,
+            "reply_disabled": null,
+            "repost": null,
+            "thread_muted": false,
+            "py_type": "app.bsky.feed.defs#viewerState"
+        },
+        "py_type": "app.bsky.feed.defs#postView"
+    },
+    {
+        "author": {
+            "did": "did:plc:amzehyqkggpx7fsjpx5hccgu",
+            "handle": "colinrturner.com",
+            "associated": null,
+            "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:amzehyqkggpx7fsjpx5hccgu/bafkreihtoxcx27kvojehfpliwexoleipufn2rdkxl5oqqzom3v2m62egbe@jpeg",
+            "created_at": "2024-11-13T22:35:16.719Z",
+            "display_name": "Colin R. Turner",
+            "labels": [],
+            "viewer": {
+                "blocked_by": false,
+                "blocking": null,
+                "blocking_by_list": null,
+                "followed_by": null,
+                "following": null,
+                "known_followers": null,
+                "muted": false,
+                "muted_by_list": null,
+                "py_type": "app.bsky.actor.defs#viewerState"
+            },
+            "py_type": "app.bsky.actor.defs#profileViewBasic"
+        },
+        "cid": "bafyreiezfsugkp3gsbmtjx5ikmkfw4zp2xfygtesopthhsb5z4pi5ocuvq",
+        "indexed_at": "2025-01-19T13:13:26.726Z",
+        "record": {
+            "created_at": "2012-10-18T03:03:48Z",
+            "text": "Green party presidential candidate Jill Stein and running mate Cheri Honkala were arrested and held in handcuffs... http://fb.me/1KLgJsHoy",
+            "embed": {
+                "external": {
+                    "description": "People. Planet. Peace.",
+                    "title": "Stein / Ware 2024",
+                    "uri": "http://fb.me/1KLgJsHoy",
+                    "thumb": null,
+                    "py_type": "app.bsky.embed.external#external"
+                },
+                "py_type": "app.bsky.embed.external"
+            },
+            "entities": null,
+            "facets": [
+                {
+                    "features": [
+                        {
+                            "uri": "http://fb.me/1KLgJsHoy",
+                            "py_type": "app.bsky.richtext.facet#link"
+                        }
+                    ],
+                    "index": {
+                        "byte_end": 138,
+                        "byte_start": 116,
+                        "py_type": "app.bsky.richtext.facet#byteSlice"
+                    },
+                    "py_type": "app.bsky.richtext.facet"
+                }
+            ],
+            "labels": null,
+            "langs": null,
+            "reply": null,
+            "tags": null,
+            "py_type": "app.bsky.feed.post"
+        },
+        "uri": "at://did:plc:amzehyqkggpx7fsjpx5hccgu/app.bsky.feed.post/3lg3vogdfu32d",
+        "embed": {
+            "external": {
+                "description": "People. Planet. Peace.",
+                "title": "Stein / Ware 2024",
+                "uri": "http://fb.me/1KLgJsHoy",
+                "thumb": null,
+                "py_type": "app.bsky.embed.external#viewExternal"
+            },
+            "py_type": "app.bsky.embed.external#view"
+        },
+        "labels": [],
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0,
+        "threadgate": null,
+        "viewer": {
+            "embedding_disabled": false,
+            "like": null,
+            "reply_disabled": null,
+            "repost": null,
+            "thread_muted": false,
+            "py_type": "app.bsky.feed.defs#viewerState"
+        },
+        "py_type": "app.bsky.feed.defs#postView"
+    },
+    {
+        "author": {
+            "did": "did:plc:amzehyqkggpx7fsjpx5hccgu",
+            "handle": "colinrturner.com",
+            "associated": null,
+            "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:amzehyqkggpx7fsjpx5hccgu/bafkreihtoxcx27kvojehfpliwexoleipufn2rdkxl5oqqzom3v2m62egbe@jpeg",
+            "created_at": "2024-11-13T22:35:16.719Z",
+            "display_name": "Colin R. Turner",
+            "labels": [],
+            "viewer": {
+                "blocked_by": false,
+                "blocking": null,
+                "blocking_by_list": null,
+                "followed_by": null,
+                "following": null,
+                "known_followers": null,
+                "muted": false,
+                "muted_by_list": null,
+                "py_type": "app.bsky.actor.defs#viewerState"
+            },
+            "py_type": "app.bsky.actor.defs#profileViewBasic"
+        },
+        "cid": "bafyreifattrh2wgdi6omew4m6wupigwnm46ww4iokmjx27h6oxh7xlw2be",
+        "indexed_at": "2025-01-19T13:13:27.218Z",
+        "record": {
+            "created_at": "2012-10-18T03:03:35Z",
+            "text": "Green party presidential candidate Jill Stein and running mate Cheri Honkala were arrested and held in handcuffs... http://fb.me/1GSXxA3tF",
+            "embed": {
+                "external": {
+                    "description": "People. Planet. Peace.",
+                    "title": "Stein / Ware 2024",
+                    "uri": "http://fb.me/1GSXxA3tF",
+                    "thumb": null,
+                    "py_type": "app.bsky.embed.external#external"
+                },
+                "py_type": "app.bsky.embed.external"
+            },
+            "entities": null,
+            "facets": [
+                {
+                    "features": [
+                        {
+                            "uri": "http://fb.me/1GSXxA3tF",
+                            "py_type": "app.bsky.richtext.facet#link"
+                        }
+                    ],
+                    "index": {
+                        "byte_end": 138,
+                        "byte_start": 116,
+                        "py_type": "app.bsky.richtext.facet#byteSlice"
+                    },
+                    "py_type": "app.bsky.richtext.facet"
+                }
+            ],
+            "labels": null,
+            "langs": null,
+            "reply": null,
+            "tags": null,
+            "py_type": "app.bsky.feed.post"
+        },
+        "uri": "at://did:plc:amzehyqkggpx7fsjpx5hccgu/app.bsky.feed.post/3lg3vogprog2k",
+        "embed": {
+            "external": {
+                "description": "People. Planet. Peace.",
+                "title": "Stein / Ware 2024",
+                "uri": "http://fb.me/1GSXxA3tF",
+                "thumb": null,
+                "py_type": "app.bsky.embed.external#viewExternal"
+            },
+            "py_type": "app.bsky.embed.external#view"
+        },
+        "labels": [],
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0,
+        "threadgate": null,
+        "viewer": {
+            "embedding_disabled": false,
+            "like": null,
+            "reply_disabled": null,
+            "repost": null,
+            "thread_muted": false,
+            "py_type": "app.bsky.feed.defs#viewerState"
+        },
+        "py_type": "app.bsky.feed.defs#postView"
+    },
+    {
+        "author": {
+            "did": "did:plc:amzehyqkggpx7fsjpx5hccgu",
+            "handle": "colinrturner.com",
+            "associated": null,
+            "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:amzehyqkggpx7fsjpx5hccgu/bafkreihtoxcx27kvojehfpliwexoleipufn2rdkxl5oqqzom3v2m62egbe@jpeg",
+            "created_at": "2024-11-13T22:35:16.719Z",
+            "display_name": "Colin R. Turner",
+            "labels": [],
+            "viewer": {
+                "blocked_by": false,
+                "blocking": null,
+                "blocking_by_list": null,
+                "followed_by": null,
+                "following": null,
+                "known_followers": null,
+                "muted": false,
+                "muted_by_list": null,
+                "py_type": "app.bsky.actor.defs#viewerState"
+            },
+            "py_type": "app.bsky.actor.defs#profileViewBasic"
+        },
+        "cid": "bafyreiawmxbjpkzrywlrsic3optkyxlwt6nceqpaohnie6kqurkoepwl2u",
+        "indexed_at": "2025-01-19T13:18:30.229Z",
+        "record": {
+            "created_at": "2012-10-18T03:03:27Z",
+            "text": "Green party presidential candidate Jill Stein and running mate Cheri Honkala were arrested and held in handcuffs... http://fb.me/1SxtWOz7w",
+            "embed": {
+                "external": {
+                    "description": "People. Planet. Peace.",
+                    "title": "Stein / Ware 2024",
+                    "uri": "http://fb.me/1SxtWOz7w",
+                    "thumb": null,
+                    "py_type": "app.bsky.embed.external#external"
+                },
+                "py_type": "app.bsky.embed.external"
+            },
+            "entities": null,
+            "facets": [
+                {
+                    "features": [
+                        {
+                            "uri": "http://fb.me/1SxtWOz7w",
+                            "py_type": "app.bsky.richtext.facet#link"
+                        }
+                    ],
+                    "index": {
+                        "byte_end": 138,
+                        "byte_start": 116,
+                        "py_type": "app.bsky.richtext.facet#byteSlice"
+                    },
+                    "py_type": "app.bsky.richtext.facet"
+                }
+            ],
+            "labels": null,
+            "langs": null,
+            "reply": null,
+            "tags": null,
+            "py_type": "app.bsky.feed.post"
+        },
+        "uri": "at://did:plc:amzehyqkggpx7fsjpx5hccgu/app.bsky.feed.post/3lg3vxhpr2v2v",
+        "embed": {
+            "external": {
+                "description": "People. Planet. Peace.",
+                "title": "Stein / Ware 2024",
+                "uri": "http://fb.me/1SxtWOz7w",
+                "thumb": null,
+                "py_type": "app.bsky.embed.external#viewExternal"
+            },
+            "py_type": "app.bsky.embed.external#view"
+        },
+        "labels": [],
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0,
+        "threadgate": null,
+        "viewer": {
+            "embedding_disabled": false,
+            "like": null,
+            "reply_disabled": null,
+            "repost": null,
+            "thread_muted": false,
+            "py_type": "app.bsky.feed.defs#viewerState"
+        },
+        "py_type": "app.bsky.feed.defs#postView"
+    },
+    {
+        "author": {
+            "did": "did:plc:amzehyqkggpx7fsjpx5hccgu",
+            "handle": "colinrturner.com",
+            "associated": null,
+            "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:amzehyqkggpx7fsjpx5hccgu/bafkreihtoxcx27kvojehfpliwexoleipufn2rdkxl5oqqzom3v2m62egbe@jpeg",
+            "created_at": "2024-11-13T22:35:16.719Z",
+            "display_name": "Colin R. Turner",
+            "labels": [],
+            "viewer": {
+                "blocked_by": false,
+                "blocking": null,
+                "blocking_by_list": null,
+                "followed_by": null,
+                "following": null,
+                "known_followers": null,
+                "muted": false,
+                "muted_by_list": null,
+                "py_type": "app.bsky.actor.defs#viewerState"
+            },
+            "py_type": "app.bsky.actor.defs#profileViewBasic"
+        },
+        "cid": "bafyreibmsm3kgdy3akejoxlk2ydbhsawayyhi57ghur4sgeziupriqfxwu",
+        "indexed_at": "2025-01-19T13:18:30.618Z",
+        "record": {
+            "created_at": "2012-10-18T03:00:41Z",
+            "text": "Green party presidential candidate Jill Stein and running mate Cheri Honkala were arrested and held in handcuffs... http://fb.me/22Xo2i3HW",
+            "embed": {
+                "external": {
+                    "description": "",
+                    "title": "Facebook",
+                    "uri": "http://fb.me/22Xo2i3HW",
+                    "thumb": null,
+                    "py_type": "app.bsky.embed.external#external"
+                },
+                "py_type": "app.bsky.embed.external"
+            },
+            "entities": null,
+            "facets": [
+                {
+                    "features": [
+                        {
+                            "uri": "http://fb.me/22Xo2i3HW",
+                            "py_type": "app.bsky.richtext.facet#link"
+                        }
+                    ],
+                    "index": {
+                        "byte_end": 138,
+                        "byte_start": 116,
+                        "py_type": "app.bsky.richtext.facet#byteSlice"
+                    },
+                    "py_type": "app.bsky.richtext.facet"
+                }
+            ],
+            "labels": null,
+            "langs": null,
+            "reply": null,
+            "tags": null,
+            "py_type": "app.bsky.feed.post"
+        },
+        "uri": "at://did:plc:amzehyqkggpx7fsjpx5hccgu/app.bsky.feed.post/3lg3vxi4ypu24",
+        "embed": {
+            "external": {
+                "description": "",
+                "title": "Facebook",
+                "uri": "http://fb.me/22Xo2i3HW",
+                "thumb": null,
+                "py_type": "app.bsky.embed.external#viewExternal"
+            },
+            "py_type": "app.bsky.embed.external#view"
+        },
+        "labels": [],
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0,
+        "threadgate": null,
+        "viewer": {
+            "embedding_disabled": false,
+            "like": null,
+            "reply_disabled": null,
+            "repost": null,
+            "thread_muted": false,
+            "py_type": "app.bsky.feed.defs#viewerState"
+        },
+        "py_type": "app.bsky.feed.defs#postView"
+    },
+    {
+        "author": {
+            "did": "did:plc:snm65opm3jo7p35ewmhhwxyl",
+            "handle": "nimbleboy.bsky.social",
+            "associated": null,
+            "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:snm65opm3jo7p35ewmhhwxyl/bafkreihx5gr6abeyr636nlbqypduelhg56gdbemgh76y6pnhzg64utsjde@jpeg",
+            "created_at": "2023-11-21T00:49:47.807Z",
+            "display_name": "nimbleboy",
+            "labels": [],
+            "viewer": {
+                "blocked_by": false,
+                "blocking": null,
+                "blocking_by_list": null,
+                "followed_by": null,
+                "following": null,
+                "known_followers": null,
+                "muted": false,
+                "muted_by_list": null,
+                "py_type": "app.bsky.actor.defs#viewerState"
+            },
+            "py_type": "app.bsky.actor.defs#profileViewBasic"
+        },
+        "cid": "bafyreib6zj65vtuxdpxl575he2bax76rq4hgosucbbtmnz4lpyaxd3djau",
+        "indexed_at": "2024-12-01T09:32:29.836Z",
+        "record": {
+            "created_at": "2012-10-17T01:30:24Z",
+            "text": "Barack O. just said bus driver! Yeah! I'm still going to vote for Jill Stein.",
+            "embed": null,
+            "entities": null,
+            "facets": null,
+            "labels": null,
+            "langs": null,
+            "reply": null,
+            "tags": null,
+            "py_type": "app.bsky.feed.post"
+        },
+        "uri": "at://did:plc:snm65opm3jo7p35ewmhhwxyl/app.bsky.feed.post/3lcacia2ukw2a",
+        "embed": null,
+        "labels": [],
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0,
+        "threadgate": null,
+        "viewer": {
+            "embedding_disabled": false,
+            "like": null,
+            "reply_disabled": null,
+            "repost": null,
+            "thread_muted": false,
+            "py_type": "app.bsky.feed.defs#viewerState"
+        },
+        "py_type": "app.bsky.feed.defs#postView"
+    },
+    {
+        "author": {
+            "did": "did:plc:b5ly66nko7iijwy2lktt3ctq",
+            "handle": "whysharksmatter.bsky.social",
+            "associated": {
+                "chat": {
+                    "allow_incoming": "all",
+                    "py_type": "app.bsky.actor.defs#profileAssociatedChat"
+                },
+                "feedgens": null,
+                "labeler": null,
+                "lists": null,
+                "starter_packs": null,
+                "py_type": "app.bsky.actor.defs#profileAssociated"
+            },
+            "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:b5ly66nko7iijwy2lktt3ctq/bafkreiakpc6hz2kumdjx5imgvevqsquajjfkxicnmasgef6ky52djzgawm@jpeg",
+            "created_at": "2023-04-30T22:13:19.949Z",
+            "display_name": "David Shiffman, Ph.D. 🦈",
+            "labels": [],
+            "viewer": {
+                "blocked_by": false,
+                "blocking": null,
+                "blocking_by_list": null,
+                "followed_by": null,
+                "following": null,
+                "known_followers": null,
+                "muted": false,
+                "muted_by_list": null,
+                "py_type": "app.bsky.actor.defs#viewerState"
+            },
+            "py_type": "app.bsky.actor.defs#profileViewBasic"
+        },
+        "cid": "bafyreicevws5kpuzimaowyiosbzwvb42h22tl6ailaf4mpgjghs3veqvme",
+        "indexed_at": "2024-12-31T12:04:37.319Z",
+        "record": {
+            "created_at": "2012-10-17T00:07:00Z",
+            "text": "“@lousycanuck: BREAKING NEWS: Green Presidential Candidate Jill Stein Arrested http://freethoughtblogs.com/ashleymiller/2012/10/16/breaking-news-green-presidential-candidate-jill-stein-arrested/” attn @SFriedScientist",
+            "embed": {
+                "external": {
+                    "description": "",
+                    "title": "Attention Required! | Cloudflare",
+                    "uri": "http://freethoughtblogs.com/ashleymiller/2012/10/16/breaking-news-green-presidential-candidate-jill-stein-arrested/”",
+                    "thumb": null,
+                    "py_type": "app.bsky.embed.external#external"
+                },
+                "py_type": "app.bsky.embed.external"
+            },
+            "entities": null,
+            "facets": [
+                {
+                    "features": [
+                        {
+                            "uri": "http://freethoughtblogs.com/ashleymiller/2012/10/16/breaking-news-green-presidential-candidate-jill-stein-arrested/”",
+                            "py_type": "app.bsky.richtext.facet#link"
+                        }
+                    ],
+                    "index": {
+                        "byte_end": 199,
+                        "byte_start": 81,
+                        "py_type": "app.bsky.richtext.facet#byteSlice"
+                    },
+                    "py_type": "app.bsky.richtext.facet"
+                }
+            ],
+            "labels": null,
+            "langs": null,
+            "reply": null,
+            "tags": null,
+            "py_type": "app.bsky.feed.post"
+        },
+        "uri": "at://did:plc:b5ly66nko7iijwy2lktt3ctq/app.bsky.feed.post/3lelyxuj3cv2g",
+        "embed": {
+            "external": {
+                "description": "",
+                "title": "Attention Required! | Cloudflare",
+                "uri": "http://freethoughtblogs.com/ashleymiller/2012/10/16/breaking-news-green-presidential-candidate-jill-stein-arrested/”",
+                "thumb": null,
+                "py_type": "app.bsky.embed.external#viewExternal"
+            },
+            "py_type": "app.bsky.embed.external#view"
+        },
+        "labels": [],
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0,
+        "threadgate": null,
+        "viewer": {
+            "embedding_disabled": false,
+            "like": null,
+            "reply_disabled": null,
+            "repost": null,
+            "thread_muted": false,
+            "py_type": "app.bsky.feed.defs#viewerState"
+        },
+        "py_type": "app.bsky.feed.defs#postView"
+    },
+    {
+        "author": {
+            "did": "did:plc:45om77fqjrtizdksby4u5chd",
+            "handle": "chadnewt.bsky.social",
+            "associated": {
+                "chat": {
+                    "allow_incoming": "all",
+                    "py_type": "app.bsky.actor.defs#profileAssociatedChat"
+                },
+                "feedgens": null,
+                "labeler": null,
+                "lists": null,
+                "starter_packs": null,
+                "py_type": "app.bsky.actor.defs#profileAssociated"
+            },
+            "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:45om77fqjrtizdksby4u5chd/bafkreifx2fnevobo6m4kreqnpgretswnp6fftm7g5qm555slnyopffnfdq@jpeg",
+            "created_at": "2024-09-15T01:49:19.648Z",
+            "display_name": "Chad Newton",
+            "labels": [],
+            "viewer": {
+                "blocked_by": false,
+                "blocking": null,
+                "blocking_by_list": null,
+                "followed_by": null,
+                "following": null,
+                "known_followers": null,
+                "muted": false,
+                "muted_by_list": null,
+                "py_type": "app.bsky.actor.defs#viewerState"
+            },
+            "py_type": "app.bsky.actor.defs#profileViewBasic"
+        },
+        "cid": "bafyreidamve46etxh54uuhnatsi45yb7vgehblhhqyeod2jefg2umqbrwm",
+        "indexed_at": "2024-11-23T22:56:41.613Z",
+        "record": {
+            "created_at": "2012-09-19T15:09:58Z",
+            "text": "@mloar green party. Anyone filling out the quiz who cites climate change as an issue is steered to Stein.",
+            "embed": null,
+            "entities": null,
+            "facets": null,
+            "labels": null,
+            "langs": null,
+            "reply": null,
+            "tags": null,
+            "py_type": "app.bsky.feed.post"
+        },
+        "uri": "at://did:plc:45om77fqjrtizdksby4u5chd/app.bsky.feed.post/3lbnlouqikt2e",
+        "embed": null,
+        "labels": [],
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0,
+        "threadgate": null,
+        "viewer": {
+            "embedding_disabled": false,
+            "like": null,
+            "reply_disabled": null,
+            "repost": null,
+            "thread_muted": false,
+            "py_type": "app.bsky.feed.defs#viewerState"
+        },
+        "py_type": "app.bsky.feed.defs#postView"
+    },
+    {
+        "author": {
+            "did": "did:plc:paobgfvxnhibkcyzycf6ehlq",
+            "handle": "loredena.bsky.social",
+            "associated": {
+                "chat": {
+                    "allow_incoming": "following",
+                    "py_type": "app.bsky.actor.defs#profileAssociatedChat"
+                },
+                "feedgens": null,
+                "labeler": null,
+                "lists": null,
+                "starter_packs": null,
+                "py_type": "app.bsky.actor.defs#profileAssociated"
+            },
+            "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:paobgfvxnhibkcyzycf6ehlq/bafkreieklmrfz5kkttty4seunjchx5yg7ese7rphzjmzadbacdprts3a24@jpeg",
+            "created_at": "2023-08-25T13:21:34.849Z",
+            "display_name": "Loredena Frisealach",
+            "labels": [
+                {
+                    "cts": "1970-01-01T00:00:00.000Z",
+                    "src": "did:plc:paobgfvxnhibkcyzycf6ehlq",
+                    "uri": "at://did:plc:paobgfvxnhibkcyzycf6ehlq/app.bsky.actor.profile/self",
+                    "val": "!no-unauthenticated",
+                    "cid": "bafyreiezaxnb3fbcmlshtomupswpeyltnupmfqan2d4vqi72j7hkmxucde",
+                    "exp": null,
+                    "neg": null,
+                    "sig": null,
+                    "ver": null,
+                    "py_type": "com.atproto.label.defs#label"
+                }
+            ],
+            "viewer": {
+                "blocked_by": false,
+                "blocking": null,
+                "blocking_by_list": null,
+                "followed_by": null,
+                "following": null,
+                "known_followers": null,
+                "muted": false,
+                "muted_by_list": null,
+                "py_type": "app.bsky.actor.defs#viewerState"
+            },
+            "py_type": "app.bsky.actor.defs#profileViewBasic"
+        },
+        "cid": "bafyreihkvn27rodlk7j47yuya7ljn2jdy3j6cv56o5l6xhyw7lqjytqetu",
+        "indexed_at": "2024-11-14T09:33:59.041Z",
+        "record": {
+            "created_at": "2012-09-10T00:56:53Z",
+            "text": "I came out 97% democrat/94% green part - and 92 jill stein/87 Obama.  Not a huge suprise really.",
+            "embed": null,
+            "entities": null,
+            "facets": null,
+            "labels": null,
+            "langs": null,
+            "reply": null,
+            "tags": null,
+            "py_type": "app.bsky.feed.post"
+        },
+        "uri": "at://did:plc:paobgfvxnhibkcyzycf6ehlq/app.bsky.feed.post/3lavkna75uk26",
+        "embed": null,
+        "labels": [],
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0,
+        "threadgate": null,
+        "viewer": {
+            "embedding_disabled": false,
+            "like": null,
+            "reply_disabled": null,
+            "repost": null,
+            "thread_muted": false,
+            "py_type": "app.bsky.feed.defs#viewerState"
+        },
+        "py_type": "app.bsky.feed.defs#postView"
+    },
+    {
+        "author": {
+            "did": "did:plc:5qr3tbdi3ww43okju62ohouv",
+            "handle": "cinquecento.bsky.social",
+            "associated": {
+                "chat": {
+                    "allow_incoming": "following",
+                    "py_type": "app.bsky.actor.defs#profileAssociatedChat"
+                },
+                "feedgens": null,
+                "labeler": null,
+                "lists": null,
+                "starter_packs": null,
+                "py_type": "app.bsky.actor.defs#profileAssociated"
+            },
+            "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:5qr3tbdi3ww43okju62ohouv/bafkreidpnqiubdhh7umuzbnpyuvtqkvamr5wvcfnsdetwknp4w3vebmm2q@jpeg",
+            "created_at": "2023-09-12T21:21:17.684Z",
+            "display_name": "Cinquecento ",
+            "labels": [],
+            "viewer": {
+                "blocked_by": false,
+                "blocking": null,
+                "blocking_by_list": null,
+                "followed_by": null,
+                "following": null,
+                "known_followers": null,
+                "muted": false,
+                "muted_by_list": null,
+                "py_type": "app.bsky.actor.defs#viewerState"
+            },
+            "py_type": "app.bsky.actor.defs#profileViewBasic"
+        },
+        "cid": "bafyreiec4guxp7p2k2kwjpxolqf753e4jpekpt7rp6lfc234pvw7wuox2y",
+        "indexed_at": "2024-11-08T02:34:37.318Z",
+        "record": {
+            "created_at": "2012-08-31T20:25:24Z",
+            "text": "Jill Stein is running in the US Presidential elections for those, like me, who think Obama is a bit Right Wing.  http://www.jillstein.org/share_your_story",
+            "embed": {
+                "external": {
+                    "description": "People. Planet. Peace.",
+                    "title": "Stein / Ware 2024",
+                    "uri": "http://www.jillstein.org/share_your_story",
+                    "thumb": null,
+                    "py_type": "app.bsky.embed.external#external"
+                },
+                "py_type": "app.bsky.embed.external"
+            },
+            "entities": null,
+            "facets": [
+                {
+                    "features": [
+                        {
+                            "uri": "http://www.jillstein.org/share_your_story",
+                            "py_type": "app.bsky.richtext.facet#link"
+                        }
+                    ],
+                    "index": {
+                        "byte_end": 154,
+                        "byte_start": 113,
+                        "py_type": "app.bsky.richtext.facet#byteSlice"
+                    },
+                    "py_type": "app.bsky.richtext.facet"
+                },
+                {
+                    "features": [
+                        {
+                            "uri": "http://www.jillstein.org/share_your_story",
+                            "py_type": "app.bsky.richtext.facet#link"
+                        }
+                    ],
+                    "index": {
+                        "byte_end": 154,
+                        "byte_start": 113,
+                        "py_type": "app.bsky.richtext.facet#byteSlice"
+                    },
+                    "py_type": "app.bsky.richtext.facet"
+                }
+            ],
+            "labels": null,
+            "langs": null,
+            "reply": null,
+            "tags": null,
+            "py_type": "app.bsky.feed.post"
+        },
+        "uri": "at://did:plc:5qr3tbdi3ww43okju62ohouv/app.bsky.feed.post/3lafqftbade2s",
+        "embed": {
+            "external": {
+                "description": "People. Planet. Peace.",
+                "title": "Stein / Ware 2024",
+                "uri": "http://www.jillstein.org/share_your_story",
+                "thumb": null,
+                "py_type": "app.bsky.embed.external#viewExternal"
+            },
+            "py_type": "app.bsky.embed.external#view"
+        },
+        "labels": [],
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0,
+        "threadgate": null,
+        "viewer": {
+            "embedding_disabled": false,
+            "like": null,
+            "reply_disabled": null,
+            "repost": null,
+            "thread_muted": false,
+            "py_type": "app.bsky.feed.defs#viewerState"
+        },
+        "py_type": "app.bsky.feed.defs#postView"
+    },
+    {
+        "author": {
+            "did": "did:plc:bbiuovrkbsbjrdehtqxagczh",
+            "handle": "matthewoliphant.com",
+            "associated": {
+                "chat": {
+                    "allow_incoming": "following",
+                    "py_type": "app.bsky.actor.defs#profileAssociatedChat"
+                },
+                "feedgens": null,
+                "labeler": null,
+                "lists": null,
+                "starter_packs": null,
+                "py_type": "app.bsky.actor.defs#profileAssociated"
+            },
+            "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:bbiuovrkbsbjrdehtqxagczh/bafkreib2h3jzyn56bs5w2zzpour5eaqeheyjp4qcuwbjh3fnqn5ogdoepe@jpeg",
+            "created_at": "2023-06-02T23:57:57.768Z",
+            "display_name": "Matthew Oliphant",
+            "labels": [
+                {
+                    "cts": "1970-01-01T00:00:00.000Z",
+                    "src": "did:plc:bbiuovrkbsbjrdehtqxagczh",
+                    "uri": "at://did:plc:bbiuovrkbsbjrdehtqxagczh/app.bsky.actor.profile/self",
+                    "val": "!no-unauthenticated",
+                    "cid": "bafyreihs5tegzhvzv2p4rdn3xpu37taq3wmhmeagrcbwlwnfq75eomvdny",
+                    "exp": null,
+                    "neg": null,
+                    "sig": null,
+                    "ver": null,
+                    "py_type": "com.atproto.label.defs#label"
+                }
+            ],
+            "viewer": {
+                "blocked_by": false,
+                "blocking": null,
+                "blocking_by_list": null,
+                "followed_by": null,
+                "following": null,
+                "known_followers": null,
+                "muted": false,
+                "muted_by_list": null,
+                "py_type": "app.bsky.actor.defs#viewerState"
+            },
+            "py_type": "app.bsky.actor.defs#profileViewBasic"
+        },
+        "cid": "bafyreifi5qp7jlbfcja6sfodxnj27t7hp5wscvfdsmj4vlqt22arm5mbcy",
+        "indexed_at": "2024-11-10T21:57:39.925Z",
+        "record": {
+            "created_at": "2012-08-17T02:42:15Z",
+            "text": "Sadly, I don't know who Jill Stein is... http://www.isidewith.com/results/48466571 (app via @KuraFire)",
+            "embed": {
+                "external": {
+                    "description": "iSideWith shows which candidates you side with based on t...",
+                    "title": "My Political Parties",
+                    "uri": "http://www.isidewith.com/results/48466571",
+                    "thumb": null,
+                    "py_type": "app.bsky.embed.external#external"
+                },
+                "py_type": "app.bsky.embed.external"
+            },
+            "entities": null,
+            "facets": [
+                {
+                    "features": [
+                        {
+                            "uri": "http://www.isidewith.com/results/48466571",
+                            "py_type": "app.bsky.richtext.facet#link"
+                        }
+                    ],
+                    "index": {
+                        "byte_end": 82,
+                        "byte_start": 41,
+                        "py_type": "app.bsky.richtext.facet#byteSlice"
+                    },
+                    "py_type": "app.bsky.richtext.facet"
+                },
+                {
+                    "features": [
+                        {
+                            "uri": "http://www.isidewith.com/results/48466571",
+                            "py_type": "app.bsky.richtext.facet#link"
+                        }
+                    ],
+                    "index": {
+                        "byte_end": 82,
+                        "byte_start": 41,
+                        "py_type": "app.bsky.richtext.facet#byteSlice"
+                    },
+                    "py_type": "app.bsky.richtext.facet"
+                }
+            ],
+            "labels": null,
+            "langs": null,
+            "reply": null,
+            "tags": null,
+            "py_type": "app.bsky.feed.post"
+        },
+        "uri": "at://did:plc:bbiuovrkbsbjrdehtqxagczh/app.bsky.feed.post/3lamsde5et62b",
+        "embed": {
+            "external": {
+                "description": "iSideWith shows which candidates you side with based on t...",
+                "title": "My Political Parties",
+                "uri": "http://www.isidewith.com/results/48466571",
+                "thumb": null,
+                "py_type": "app.bsky.embed.external#viewExternal"
+            },
+            "py_type": "app.bsky.embed.external#view"
+        },
+        "labels": [],
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0,
+        "threadgate": null,
+        "viewer": {
+            "embedding_disabled": false,
+            "like": null,
+            "reply_disabled": null,
+            "repost": null,
+            "thread_muted": false,
+            "py_type": "app.bsky.feed.defs#viewerState"
+        },
+        "py_type": "app.bsky.feed.defs#postView"
+    },
+    {
+        "author": {
+            "did": "did:plc:av4y3qii4lgpcfethkhv6hvw",
+            "handle": "stepfordwifey.bsky.social",
+            "associated": null,
+            "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:av4y3qii4lgpcfethkhv6hvw/bafkreidfkzpzlqjwfp4pmtjnrunrz4xk3ohzf3h2q6av6kuhl6aqidaca4@jpeg",
+            "created_at": "2024-11-12T22:12:30.443Z",
+            "display_name": "",
+            "labels": [],
+            "viewer": {
+                "blocked_by": false,
+                "blocking": null,
+                "blocking_by_list": null,
+                "followed_by": null,
+                "following": null,
+                "known_followers": null,
+                "muted": false,
+                "muted_by_list": null,
+                "py_type": "app.bsky.actor.defs#viewerState"
+            },
+            "py_type": "app.bsky.actor.defs#profileViewBasic"
+        },
+        "cid": "bafyreidezqngnmlkwgzbiwesp6fxa72aofzkumnp4hpaoewb2ahpjxhgue",
+        "indexed_at": "2024-11-19T07:43:39.944Z",
+        "record": {
+            "created_at": "2012-08-14T21:33:46.000Z",
+            "text": "I side 92% with Jill Stein...",
+            "embed": null,
+            "entities": null,
+            "facets": null,
+            "labels": null,
+            "langs": null,
+            "reply": null,
+            "tags": null,
+            "py_type": "app.bsky.feed.post"
+        },
+        "uri": "at://did:plc:av4y3qii4lgpcfethkhv6hvw/app.bsky.feed.post/3lbbwskzp4b23",
+        "embed": null,
+        "labels": [],
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0,
+        "threadgate": null,
+        "viewer": {
+            "embedding_disabled": false,
+            "like": null,
+            "reply_disabled": null,
+            "repost": null,
+            "thread_muted": false,
+            "py_type": "app.bsky.feed.defs#viewerState"
+        },
+        "py_type": "app.bsky.feed.defs#postView"
+    },
+    {
+        "author": {
+            "did": "did:plc:44qdph4cewy5kbjpnyluntpr",
+            "handle": "mahrko.de",
+            "associated": {
+                "chat": {
+                    "allow_incoming": "all",
+                    "py_type": "app.bsky.actor.defs#profileAssociatedChat"
+                },
+                "feedgens": null,
+                "labeler": null,
+                "lists": null,
+                "starter_packs": null,
+                "py_type": "app.bsky.actor.defs#profileAssociated"
+            },
+            "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:44qdph4cewy5kbjpnyluntpr/bafkreigo3ubbcnv2czyxxmrodtfgrb23po4dkkdbmub3grv67gq7emooxe@jpeg",
+            "created_at": "2023-07-14T13:04:34.047Z",
+            "display_name": "Marco Bereth",
+            "labels": [],
+            "viewer": {
+                "blocked_by": false,
+                "blocking": null,
+                "blocking_by_list": null,
+                "followed_by": null,
+                "following": null,
+                "known_followers": null,
+                "muted": false,
+                "muted_by_list": null,
+                "py_type": "app.bsky.actor.defs#viewerState"
+            },
+            "py_type": "app.bsky.actor.defs#profileViewBasic"
+        },
+        "cid": "bafyreig6yk4kptp6sxf46ixa5qfl6ffiyyz5hlwrc6ifhef6p5z2yw255u",
+        "indexed_at": "2024-12-19T15:44:02.927Z",
+        "record": {
+            "created_at": "2012-07-21T11:28:03Z",
+            "text": "Dürft ich in Amerika wählen... \"I side 95% with Jill Stein\"  http://www.isidewith.com/results/29838152",
+            "embed": {
+                "external": {
+                    "description": "iSideWith shows which candidates you side with based on t...",
+                    "title": "My Political Parties",
+                    "uri": "http://www.isidewith.com/results/29838152",
+                    "thumb": null,
+                    "py_type": "app.bsky.embed.external#external"
+                },
+                "py_type": "app.bsky.embed.external"
+            },
+            "entities": null,
+            "facets": [
+                {
+                    "features": [
+                        {
+                            "uri": "http://www.isidewith.com/results/29838152",
+                            "py_type": "app.bsky.richtext.facet#link"
+                        }
+                    ],
+                    "index": {
+                        "byte_end": 104,
+                        "byte_start": 63,
+                        "py_type": "app.bsky.richtext.facet#byteSlice"
+                    },
+                    "py_type": "app.bsky.richtext.facet"
+                }
+            ],
+            "labels": null,
+            "langs": null,
+            "reply": null,
+            "tags": null,
+            "py_type": "app.bsky.feed.post"
+        },
+        "uri": "at://did:plc:44qdph4cewy5kbjpnyluntpr/app.bsky.feed.post/3ldo7n6ovuq2x",
+        "embed": {
+            "external": {
+                "description": "iSideWith shows which candidates you side with based on t...",
+                "title": "My Political Parties",
+                "uri": "http://www.isidewith.com/results/29838152",
+                "thumb": null,
+                "py_type": "app.bsky.embed.external#viewExternal"
+            },
+            "py_type": "app.bsky.embed.external#view"
+        },
+        "labels": [],
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "repost_count": 0,
+        "threadgate": null,
+        "viewer": {
+            "embedding_disabled": false,
+            "like": null,
+            "reply_disabled": null,
+            "repost": null,
+            "thread_muted": false,
+            "py_type": "app.bsky.feed.defs#viewerState"
+        },
+        "py_type": "app.bsky.feed.defs#postView"
+    }
+]

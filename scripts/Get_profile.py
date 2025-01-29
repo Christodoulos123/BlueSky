@@ -5,7 +5,7 @@ import json
 url = "https://public.api.bsky.app/xrpc/app.bsky.actor.getProfile"
 
 # Specify the actor (handle or DID) whose profile you want to retrieve
-actor = "theonion.com"  # You can also use a DID like "did:plc:44ybard66vv44zksje25o7dz"
+actor = "bsky.app"  # You can also use a DID like "did:plc:44ybard66vv44zksje25o7dz"
 
 # Prepare the query parameters
 params = {

@@ -1,23 +1,27 @@
 {
-    "did": "did:plc:a4pqq234yw7fqbddawjo7y35",
-    "handle": "theonion.com",
-    "displayName": "The Onion",
-    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:a4pqq234yw7fqbddawjo7y35/bafkreiajdz4ktkjv5jrnye7sotgz6g5xarts6yu6ypbhninxqnvwoiwsfi@jpeg",
+    "did": "did:plc:z72i7hdynmk6r22z27h6tvur",
+    "handle": "bsky.app",
+    "displayName": "Bluesky",
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:z72i7hdynmk6r22z27h6tvur/bafkreihagr2cmvl2jt4mgx3sppwe2it3fwolkrbtjrhcnwjk4jdijhsoze@jpeg",
     "associated": {
-        "lists": 0,
-        "feedgens": 0,
+        "lists": 2,
+        "feedgens": 7,
         "starterPacks": 0,
         "labeler": false,
         "chat": {
-            "allowIncoming": "following"
+            "allowIncoming": "none"
         }
     },
     "labels": [],
-    "createdAt": "2023-04-29T12:21:21.353Z",
-    "description": "America\u2019s Finest News Source.\n\nA @globaltetrahedron.bsky.social subsidiary. ",
-    "indexedAt": "2024-11-14T14:20:35.925Z",
-    "banner": "https://cdn.bsky.app/img/banner/plain/did:plc:a4pqq234yw7fqbddawjo7y35/bafkreicgch7tqdrzk2hjjwgjf5pwxy3rfkv2l2rpnyxqu2sxyrz6oenp44@jpeg",
-    "followersCount": 879399,
-    "followsCount": 3,
-    "postsCount": 1449
+    "createdAt": "2023-04-12T04:53:57.057Z",
+    "description": "official Bluesky account (check username\ud83d\udc46)\n\nBugs, feature requests, feedback: support@bsky.app",
+    "indexedAt": "2024-12-18T07:43:57.542Z",
+    "banner": "https://cdn.bsky.app/img/banner/plain/did:plc:z72i7hdynmk6r22z27h6tvur/bafkreichzyovokfzmymz36p5jibbjrhsur6n7hjnzxrpbt5jaydp2szvna@jpeg",
+    "followersCount": 22148078,
+    "followsCount": 2,
+    "postsCount": 495,
+    "pinnedPost": {
+        "cid": "bafyreicnt42y6vo6pfpvyro234ac4o6ijug6adwwrh7awflgrqlt4zibxq",
+        "uri": "at://did:plc:z72i7hdynmk6r22z27h6tvur/app.bsky.feed.post/3l6oveex3ii2l"
+    }
 }
