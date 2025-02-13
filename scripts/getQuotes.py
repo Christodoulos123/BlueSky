@@ -1,31 +1,28 @@
-import requests
+from atproto import Client
 import json
 
-# Endpoint URL for getQuotes API
-url = "https://public.api.bsky.app/xrpc/app.bsky.feed.getQuotes"
+# Step 1: Set up Bluesky Client and Login
+client = Client(base_url='https://bsky.social')
+client.login('blueskyuser123.bsky.social', '1234')  # Replace with valid credentials
 
 # Specify the AT-URI of the post you want to retrieve quotes for
-params = {
-    "uri": "at://did:plc:ynl2frkgfgqsi4s2v4q62gp6/app.bsky.feed.post/3l5ho3m2g642t",  # Replace with the actual AT-URI of the post
-}
+post_uri = "at://did:plc:ynl2frkgfgqsi4s2v4q62gp6/app.bsky.feed.post/3l5ho3m2g642t"  # Replace with the actual AT-URI
 
-# Optionally, add an Authorization header if required
-headers = {
-    # "Authorization": "Bearer YOUR_ACCESS_TOKEN"  # Uncomment and replace with your token if authentication is required
-}
+# Output JSON file for storing quotes
+output_file = "getQuotess.json"
 
-# Make the API request
-response = requests.get(url, headers=headers, params=params)
+try:
+    # Fetch quotes using the Bluesky API
+    quotes_results = client.app.bsky.feed.get_quotes({"uri": post_uri})
+    
+    # Convert the response to a dictionary
+    quotes_data = quotes_results.dict()
+    
+    # Save the quotes data to a JSON file
+    with open(output_file, "w", encoding="utf-8") as json_file:
+        json.dump(quotes_data, json_file, ensure_ascii=False, indent=4)
+    
+    print(f"Quotes data has been saved to '{output_file}'.")
 
-# Check if the request was successful
-if response.status_code == 200:
-    quotes_data = response.json()
-    print("Quotes Data:", json.dumps(quotes_data, indent=4))
-
-    # Save the quotes data in a JSON file
-    with open("../output/getQuotes.json", "w") as json_file:
-        json.dump(quotes_data, json_file, indent=4)  # Pretty-print JSON
-    print("Quotes data has been saved to 'getQuotes.json'.")
-else:
-    print(f"Error: {response.status_code}")
-    print(f"Response Text: {response.text}")
+except Exception as e:
+    print(f"Error fetching quotes for post {post_uri}: {e}")

@@ -1,6 +1,7 @@
 from atproto import Client
 import json
 from datetime import datetime
+import os
 
 # Create a session
 client = Client(base_url='https://bsky.social')
@@ -8,8 +9,17 @@ client = Client(base_url='https://bsky.social')
 # Log in with your username and password
 client.login('blueskyuser123.bsky.social', '1234')
 
-# Generate output file name with timestamp (YYYY-MM-DD_HH-MM-SS format)
-output_file_name = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+#Generate today's date for folder naming
+current_date = datetime.now().strftime("%Y-%m-%d")  # Format: YYYY-MM-DD
+
+#Ensure the 'output' folder is located **outside** the 'scripts' folder
+base_output_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "output"))
+output_folder = os.path.join(base_output_dir, current_date)
+
+os.makedirs(output_folder, exist_ok=True)  # Create folder if it doesn't exist
+
+#Define the output file path
+output_file = os.path.join(output_folder, "searched_posts.json")
 
 # Read the query from the file
 with open("/home/christodoulos/Documents/supplementary_files/combined_query.txt", "r", encoding="utf-8") as file:
@@ -45,10 +55,9 @@ while True:
         break
 
 # Define the output file path
-output_file_path = f'../output/raw_data/{output_file_name}.json'
 
 # Write raw data to JSON
-with open(output_file_path, 'w', encoding='utf-8') as json_file:
+with open(output_file, 'w', encoding='utf-8') as json_file:
     json.dump([post.dict() for post in all_results], json_file, ensure_ascii=False, indent=4)
 
-print(f"Saved {len(all_results)} posts to {output_file_path}")
+print(f"Saved {len(all_results)} posts to {output_file}")
