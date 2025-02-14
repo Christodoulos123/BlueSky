@@ -1,3 +1,4 @@
+import os
 import json
 import time
 from atproto import Client
@@ -6,11 +7,15 @@ from atproto import Client
 client = Client(base_url='https://bsky.social')
 client.login('blueskyuser123.bsky.social', '1234')  # Use your credentials
 
-# Input JSON file with searched posts
-input_posts_json = "raw_response.json"
+# Find the most recent folder inside 'output/'
+base_output_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "output"))
+latest_folder = max([os.path.join(base_output_dir, d) for d in os.listdir(base_output_dir) if os.path.isdir(os.path.join(base_output_dir, d))], key=os.path.getmtime)
 
-# Output JSON file for replies
-output_replies_json = f"comments_from_{input_posts_json}"
+# Get the latest JSON file (searched_posts.json)
+input_posts_json = os.path.join(latest_folder, "searched_posts.json")
+
+# Define the output file for comments
+output_replies_json = os.path.join(latest_folder, "comments.json")
 
 count = 1
 all_replies = []  # List to store all reply data
