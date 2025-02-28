@@ -34,42 +34,46 @@ if isinstance(posts_data, dict) and "posts" in posts_data:
 # Step 2: Fetch Quotes for Each Post and Save to JSON
 for post in posts_data:
     post_uri = post.get("uri")  # Adjusted key based on standard structure
-    if not post_uri:
+    quote_count = post.get("quote_count", 0)
+
+    # Skip posts with quoteCount == 0
+    if quote_count == 0:
+        print(f"Skipping {post_uri} - No quotes")
         continue
-    
+
     print(f"{count}) Fetching quotes for post: {post_uri}")
     count += 1
-    
+
     # Fetch quotes for the post
     quotes_params = {
         "uri": post_uri,  # Required
         "limit": 100,  # Adjust limit as needed
     }
-    
+
     try:
         time.sleep(0.1)  # Rate limit handling
         all_post_quotes = []  # List to store quotes for this post
 
         while True:
             quotes_results = client.app.bsky.feed.get_quotes(quotes_params)
-            
+
             # Append quotes to the list
-            if hasattr(quotes_results, 'quotes'):
-                all_post_quotes.extend(quotes_results.quotes)
-            
+            if hasattr(quotes_results, 'posts') and quotes_results.posts:
+                all_post_quotes.extend(quotes_results.posts)
+
             # Check for pagination
             if hasattr(quotes_results, 'cursor') and quotes_results.cursor:
                 quotes_params["cursor"] = quotes_results.cursor
                 print(f"Fetching more quotes for post: {post_uri}")
             else:
                 break  # No more quotes available
-        
+
         # Store the entire response for each post
         all_quotes.append({
             "post_uri": post_uri,
-            "quotes": [quote.dict() for quote in all_post_quotes]  # Convert to dictionary format
+            "quotes": [post.dict() for post in all_post_quotes]  # Convert to dictionary format
         })
-    
+
     except Exception as e:
         print(f"Error fetching quotes for post {post_uri}: {e}")
 
