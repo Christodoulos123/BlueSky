@@ -12,10 +12,12 @@ base_output_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", 
 latest_folder = max([os.path.join(base_output_dir, d) for d in os.listdir(base_output_dir) if os.path.isdir(os.path.join(base_output_dir, d))], key=os.path.getmtime)
 
 # Get the latest JSON file (searched_posts.json)
-input_posts_json = os.path.join(latest_folder, "searched_posts.json")
+# input_posts_json = os.path.join(latest_folder, "searched_posts.json")
+input_posts_json = "/home/christodoulos/Documents/GitHub/BlueSky/output/timeStamp_Posts/merged_posts.json"
 
 # Define the output file for comments
-output_replies_json = os.path.join(latest_folder, "comments.json")
+# output_replies_json = os.path.join(latest_folder, "comments.json")
+output_replies_json = "/home/christodoulos/Documents/GitHub/BlueSky/output/timeStamp_Posts/comments3.json"
 
 count = 1
 all_replies = []  # List to store all reply data
@@ -31,7 +33,12 @@ if isinstance(posts_data, dict) and "posts" in posts_data:
 # Step 2: Fetch Replies for Each Post and Save to JSON
 for post in posts_data:
     post_uri = post.get("uri")  # Adjusted key based on standard structure
-    if not post_uri:
+    comment_count = post.get("reply_count", 0)
+    reply_data = post.get("record", {}).get("reply", {})
+
+
+    if comment_count == 0 and not reply_data:
+        print(f"Skipping post: {post_uri} not a thread")
         continue
     
     print(f"{count}) Fetching replies for post: {post_uri}")

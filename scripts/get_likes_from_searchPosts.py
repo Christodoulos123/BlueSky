@@ -12,10 +12,12 @@ base_output_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", 
 latest_folder = max([os.path.join(base_output_dir, d) for d in os.listdir(base_output_dir) if os.path.isdir(os.path.join(base_output_dir, d))], key=os.path.getmtime)
 
 # Get the latest JSON file (searched_posts.json)
-input_posts_json = os.path.join(latest_folder, "searched_posts.json")
+# input_posts_json = os.path.join(latest_folder, "searched_posts.json")
+input_posts_json = "/home/christodoulos/Documents/GitHub/BlueSky/output/timeStamp_Posts/merged_posts.json"
 
 # Define the output file for likes
-output_likes_json = os.path.join(latest_folder, "likes.json")
+# output_likes_json = os.path.join(latest_folder, "likes.json")
+output_likes_json = "/home/christodoulos/Documents/GitHub/BlueSky/output/timeStamp_Posts/likes3.json"
 
 print(f"Using input file: {input_posts_json}")
 print(f"Saving likes to: {output_likes_json}")
@@ -34,7 +36,9 @@ if isinstance(posts_data, dict) and "posts" in posts_data:
 # Step 2: Fetch Likes for Each Post and Save to JSON
 for post in posts_data:
     post_uri = post.get("uri")  # Adjusted key based on standard structure
-    if not post_uri:
+    like_count = post.get("like_count")
+    if not post_uri or like_count == 0:
+        print(f"Skipping post: {post_uri} - it has {like_count} likes")
         continue
     
     print(f"{count}) Fetching likes for post: {post_uri}")
@@ -47,7 +51,7 @@ for post in posts_data:
     }
     
     try:
-        time.sleep(0.1)  # Rate limit handling
+        time.sleep(0.5)  # Rate limit handling
         all_post_likes = []  # List to store likes for this post
 
         while True:

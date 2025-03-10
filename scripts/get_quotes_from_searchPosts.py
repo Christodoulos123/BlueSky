@@ -12,10 +12,14 @@ base_output_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", 
 latest_folder = max([os.path.join(base_output_dir, d) for d in os.listdir(base_output_dir) if os.path.isdir(os.path.join(base_output_dir, d))], key=os.path.getmtime)
 
 # Get the latest JSON file (searched_posts.json)
-input_posts_json = os.path.join(latest_folder, "searched_posts.json")
+# input_posts_json = os.path.join(latest_folder, "searched_posts.json")
+input_posts_json = "/home/christodoulos/Documents/GitHub/BlueSky/output/timeStamp_Posts/merged_posts.json"
+
 
 # Define the output file for quotes
-output_quotes_json = os.path.join(latest_folder, "quotes.json")
+# output_quotes_json = os.path.join(latest_folder, "quotes.json")
+output_quotes_json = "/home/christodoulos/Documents/GitHub/BlueSky/output/timeStamp_Posts/quotes3.json"
+
 
 print(f"Using input file: {input_posts_json}")
 print(f"Saving quotes to: {output_quotes_json}")
