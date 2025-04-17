@@ -6,10 +6,10 @@ client = Client(base_url='https://bsky.social')
 client.login('blueskyuser123.bsky.social', '1234')  # Replace with valid credentials
 
 # Specify the AT-URI of the post you want to retrieve quotes for
-post_uri = "at://did:plc:ynl2frkgfgqsi4s2v4q62gp6/app.bsky.feed.post/3l5ho3m2g642t"  # Replace with the actual AT-URI
-
+post_uri = "at://did:plc:ynl2frkgfgqsi4s2v4q62gp6/app.bsky.feed.post/3l5hobgriad2r"  # Replace with the actual AT-URI
+#https://bsky.app/profile/blueskyuser123.bsky.social/post/3l5hobgriad2r
 # Output JSON file for storing quotes
-output_file = "getQuotess.json"
+output_file = "../output/getQuotess.json"
 
 try:
     # Fetch quotes using the Bluesky API
