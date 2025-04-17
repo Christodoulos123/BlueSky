@@ -1,27 +1,52 @@
 {
-    "did": "did:plc:z72i7hdynmk6r22z27h6tvur",
-    "handle": "bsky.app",
-    "displayName": "Bluesky",
-    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:z72i7hdynmk6r22z27h6tvur/bafkreihagr2cmvl2jt4mgx3sppwe2it3fwolkrbtjrhcnwjk4jdijhsoze@jpeg",
+    "did": "did:plc:wx6hbspq4uaedrnpa77jfysz",
+    "handle": "kaliagainstallodds.mastodon.social.ap.brid.gy",
     "associated": {
-        "lists": 2,
-        "feedgens": 7,
-        "starterPacks": 0,
-        "labeler": false,
         "chat": {
-            "allowIncoming": "none"
-        }
+            "allow_incoming": "none",
+            "py_type": "app.bsky.actor.defs#profileAssociatedChat"
+        },
+        "feedgens": 0,
+        "labeler": false,
+        "lists": 0,
+        "starter_packs": 0,
+        "py_type": "app.bsky.actor.defs#profileAssociated"
     },
-    "labels": [],
-    "createdAt": "2023-04-12T04:53:57.057Z",
-    "description": "official Bluesky account (check username\ud83d\udc46)\n\nBugs, feature requests, feedback: support@bsky.app",
-    "indexedAt": "2024-12-18T07:43:57.542Z",
-    "banner": "https://cdn.bsky.app/img/banner/plain/did:plc:z72i7hdynmk6r22z27h6tvur/bafkreichzyovokfzmymz36p5jibbjrhsur6n7hjnzxrpbt5jaydp2szvna@jpeg",
-    "followersCount": 22148078,
-    "followsCount": 2,
-    "postsCount": 495,
-    "pinnedPost": {
-        "cid": "bafyreicnt42y6vo6pfpvyro234ac4o6ijug6adwwrh7awflgrqlt4zibxq",
-        "uri": "at://did:plc:z72i7hdynmk6r22z27h6tvur/app.bsky.feed.post/3l6oveex3ii2l"
-    }
+    "avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:wx6hbspq4uaedrnpa77jfysz/bafkreihevtydv4gbbgw7zw7ixn7bhru3yzpsii2op5x4i3c52pescvcqxi@jpeg",
+    "banner": "https://cdn.bsky.app/img/banner/plain/did:plc:wx6hbspq4uaedrnpa77jfysz/bafkreiby2bthwtcbdnbiox2ddxlf7ued5yhuic6zqnjft7ccbktutwausi@jpeg",
+    "created_at": "2024-11-10T23:05:31.816Z",
+    "description": "#systems #complexity #emergence #complexsystems #systemsthinking #systemstheory #systemsengineering #systemsinnovation #systemsdynamics […] \n\n[bridged from https://mastodon.social/@kaliagainstallodds on the fediverse by https://fed.brid.gy/ ]",
+    "display_name": "kali",
+    "followers_count": 24,
+    "follows_count": 9,
+    "indexed_at": "2025-01-08T17:50:22.812Z",
+    "joined_via_starter_pack": null,
+    "labels": [
+        {
+            "cts": "1970-01-01T00:00:00.000Z",
+            "src": "did:plc:wx6hbspq4uaedrnpa77jfysz",
+            "uri": "at://did:plc:wx6hbspq4uaedrnpa77jfysz/app.bsky.actor.profile/self",
+            "val": "bridged-from-bridgy-fed-activitypub",
+            "cid": "bafyreiafxwmpysqqic7ob6ic4emeqdydmlxd4ex7pbk6owki2vt36urvni",
+            "exp": null,
+            "neg": null,
+            "sig": null,
+            "ver": null,
+            "py_type": "com.atproto.label.defs#label"
+        }
+    ],
+    "pinned_post": null,
+    "posts_count": 934,
+    "viewer": {
+        "blocked_by": false,
+        "blocking": null,
+        "blocking_by_list": null,
+        "followed_by": null,
+        "following": null,
+        "known_followers": null,
+        "muted": false,
+        "muted_by_list": null,
+        "py_type": "app.bsky.actor.defs#viewerState"
+    },
+    "py_type": "app.bsky.actor.defs#profileViewDetailed"
 }
