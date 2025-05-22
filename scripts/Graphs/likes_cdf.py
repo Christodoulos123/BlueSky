@@ -25,28 +25,33 @@ for like, count in like_distribution.items():
     bin_index = min(like // bin_width, len(binned_counts) - 1)
     binned_counts[bin_index] += count
 
-# Filter out bins with 0 posts to avoid empty space
-filtered_labels = []
-filtered_counts = []
+# Filter out bins with 0 posts
+filtered_bins = []
 for label, count in zip(bin_labels, binned_counts):
     if count > 0:
-        filtered_labels.append(label)
-        filtered_counts.append(count)
+        filtered_bins.append((label, count))
 
-# Plot
+# 🔽 Sort bins by number of posts (ascending)
+sorted_bins = sorted(filtered_bins, key=lambda x: x[1])  # sort by count
+
+# Unzip into separate lists
+sorted_labels = [label for label, _ in sorted_bins]
+sorted_counts = [count for _, count in sorted_bins]
+
+# Compute CDF in percentages
+cumulative = np.cumsum(sorted_counts)
+cdf = (cumulative / cumulative[-1]) * 100
+
+# Plot CDF
 plt.figure(figsize=(14, 6))
-plt.bar(filtered_labels, filtered_counts, color='#1DA1F2', edgecolor='white')
+plt.plot(sorted_labels, cdf, color='orange', marker='o', linewidth=2)
 
-# Log scale if needed
-if max(filtered_counts) / max(1, min(c for c in filtered_counts if c > 0)) > 100:
-    plt.yscale('log')
-    plt.ylabel('Number of Posts (log scale)', fontsize=12)
-else:
-    plt.ylabel('Number of Posts', fontsize=12)
-
-plt.xlabel('Like Count Range', fontsize=12)
+# Labels and formatting
+plt.xlabel('Like Count Range (sorted by frequency)', fontsize=12)
+plt.ylabel('Cumulative % of Posts', fontsize=12)
 plt.xticks(rotation=45, ha='right')
+plt.ylim(0, 100)
 plt.grid(axis='y', alpha=0.3)
 plt.tight_layout()
-plt.savefig('/home/christodoulos/Documents/GitHub/BlueSky/output/timeStamp_Posts/info/graph_likes_binned_filtered.png')
+plt.savefig('/home/christodoulos/Documents/GitHub/BlueSky/output/timeStamp_Posts/info/graph_likes_cdf_sorted_by_posts.png')
 plt.show()

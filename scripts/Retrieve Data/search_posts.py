@@ -16,28 +16,26 @@ with open("/home/christodoulos/Documents/supplementary_files/combined_query.txt"
     lucene_query = file.read().strip()
 
 # Load the dates from the dates_between.json file
-with open("dates_between.json", "r", encoding="utf-8") as json_file:
+with open("/home/christodoulos/Documents/BlueSky/dates_between.json", "r", encoding="utf-8") as json_file:
     dates_list = json.load(json_file)
 
-# Dictionary to store results grouped by month and day
-monthly_results = defaultdict(list)
+# Containers for posts and counts
+all_posts = []
 daily_counts = defaultdict(int)
 monthly_counts = defaultdict(int)
 
-# Iterate over each date range in the dates_between.json file
+# Iterate over each date range
 for date_range in dates_list:
     since = date_range["start_of_day"]
     until = date_range["end_of_day"]
     
-    # Extract year and month for file naming
-    month_key = since[:7]  # Format: YYYY-MM
-    day_key = since[:10]  # Format: YYYY-MM-DD
-    
-    # Set up query parameters for this interval
+    month_key = since[:7]  # YYYY-MM
+    day_key = since[:10]   # YYYY-MM-DD
+
     params = {
-        "q": lucene_query,  # Use the query from the file
-        "sort": "latest",  # Sort by latest posts
-        "limit": 100,  # Adjust limit as needed
+        "q": lucene_query,
+        "sort": "latest",
+        "limit": 100,
         "since": since,
         "until": until,
     }
@@ -47,19 +45,16 @@ for date_range in dates_list:
     # Fetch data for this interval
     while True:
         try:
-            # Make the API request
             search_results = client.app.bsky.feed.search_posts(params)
             time.sleep(0.1)
 
-            # Append the raw response to the results list for this month
             if hasattr(search_results, 'posts'):
-                monthly_results[month_key].extend(search_results.posts)
+                all_posts.extend(search_results.posts)
                 daily_counts[day_key] += len(search_results.posts)
                 monthly_counts[month_key] += len(search_results.posts)
 
-            # Check if there's a next cursor for pagination
             if hasattr(search_results, 'cursor') and search_results.cursor:
-                params["cursor"] = search_results.cursor  # Update the cursor in the query parameters
+                params["cursor"] = search_results.cursor
                 print(f"Next cursor: {search_results.cursor}")
             else:
                 print("No more results available for this interval.")
@@ -69,23 +64,20 @@ for date_range in dates_list:
             print(f"Error during API request: {e}")
             break
 
-# Ensure output directory exists
-output_dir = "months/3"
-os.makedirs(output_dir, exist_ok=True)
 
-# Write results to separate JSON files per month
-for month, posts in monthly_results.items():
-    output_file_name = os.path.join(output_dir, f"Search_results_{month}.json")
-    with open(output_file_name, 'w', encoding='utf-8') as json_file:
-        json.dump([post.dict() for post in posts], json_file, ensure_ascii=False, indent=4)
-    print(f"Saved {len(posts)} posts to {output_file_name}")
 
-# Save daily and monthly counts to a JSON file
-counts_file = os.path.join(output_dir, "post_counts.json")
+# Save all posts to a single file
+output_file = "/home/christodoulos/Documents/BlueSky/this_one/Search_results_all.json"
+with open(output_file, 'w', encoding='utf-8') as f:
+    json.dump([post.dict() for post in all_posts], f, ensure_ascii=False, indent=4)
+print(f"Saved {len(all_posts)} posts to {output_file}")
+
+# Save counts
+counts_file = "/home/christodoulos/Documents/BlueSky/this_one/post_counts.json"
 counts_data = {
     "daily_counts": dict(daily_counts),
     "monthly_counts": dict(monthly_counts)
 }
-with open(counts_file, 'w', encoding='utf-8') as json_file:
-    json.dump(counts_data, json_file, ensure_ascii=False, indent=4)
+with open(counts_file, 'w', encoding='utf-8') as f:
+    json.dump(counts_data, f, ensure_ascii=False, indent=4)
 print(f"Saved post counts to {counts_file}")

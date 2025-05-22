@@ -29,7 +29,6 @@ plt.xlabel('Number of Replies')
 plt.ylabel('Number of Posts')
 # plt.ylim(0, 4500)  # Set y-axis range from 0 to 100
 plt.yscale('log')
-plt.title('Distribution of Reply Counts per Post')
 plt.grid(axis='y', linestyle='--', alpha=0.7)
 
 plt.tight_layout()
