@@ -3,7 +3,7 @@ import time
 from googleapiclient import discovery
 
 # Load your API key here
-API_KEY = 'AIzaSyD3qTfgNWzLNGaqIndfVlx7AaWuf93zog4'
+API_KEY = 'your_key'
 
 # Load input JSON
 with open("/home/christodoulos/Documents/GitHub/BlueSky/output/timeStamp_Posts/info/extracted_quotes.json", "r") as f:
